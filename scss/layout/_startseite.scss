@@ -1,0 +1,52 @@
+/*--------------------------------------- Grob ---------------------------------------*/
+header{
+	@extend %grid;
+}
+
+
+/*--------------------------------------- Header ---------------------------------------*/
+.logo{
+	@extend %grid__item;
+	@extend %one-whole;
+  @extend %threecol--one-third;
+}
+
+.mainnav{
+	@extend %grid__item;
+	@extend %one-whole;
+  @extend %threecol--two-thirds;
+}
+
+.teaser{
+	@extend %grid__item;
+	@extend %one-whole;
+}
+
+.breadcrumb{
+	@extend %grid__item;
+	@extend %one-whole;
+}
+
+/*--------------------------------------- Content ---------------------------------------*/
+
+.content{
+	@extend %grid;
+}
+
+.box.produkte, .box.referenzen{
+	@extend %twocol--one-whole;
+	@extend %threecol--one-third;
+}
+
+.korona, .kontakt{
+	@extend %push--threecol--one-third;
+}
+
+.box{
+	@extend %grid__item;
+	@extend %one-whole;
+	@extend %twocol--one-half;
+	@extend %threecol--one-third;
+}
+
+/*--------------------------------------- Footer ---------------------------------------*/

@@ -1,6 +1,6 @@
 	<footer>
 		<nav class="footernev">
-			<ul>
+			<ul class="nav">
 				<li><a href="#">Startseite</a></li>
 				<li><a href="#">Presse</a></li>
 				<li><a href="#">Downloads</a></li>

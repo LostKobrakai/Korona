@@ -1,0 +1,46 @@
+h1,.alpha{
+  font-size: 2.769230769em;
+  color: $darkgray;
+}
+h2,.beta{
+  font-size: 1.846153846em;
+  color: $darkgray;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h3,.gamma{
+  font-size: 1.153846154em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h4,.delta{
+  font-size: 1.153846154em;
+}
+h5,.epsilon{
+  font-weight: bold;
+  color: $lightgray;
+}
+h6,.zeta{
+  color: $lightgray;
+}
+
+h1, h2, h3, h4, h5, h6{
+  width: 75%;
+  font-weight: normal;
+  border-bottom: $border;
+}
+
+/**
+ * A series of classes for setting massive type; for use in heroes, mastheads,
+ * promos, etc.
+
+.giga{
+    @include font-size($giga-size);
+}
+.mega{
+    @include font-size($mega-size);
+}
+.kilo{
+    @include font-size($kilo-size);
+}
+ */

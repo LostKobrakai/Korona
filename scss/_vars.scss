@@ -1,0 +1,15 @@
+$gutter: 2%;
+$use-silent-classes: true;
+$push: true;
+$pull: true;
+$breakpoints: (
+    'threecol' '(min-width: 960px)',
+    'twocol' '(min-width: 480px)'
+);
+$breakpoint-has-widths: ('twocol', 'threecol');
+$breakpoint-has-push:   ('twocol', 'threecol');
+$breakpoint-has-pull:   ('twocol', 'threecol');
+// $lap-start
+// $desk-start
+
+$global-border-box: true;
