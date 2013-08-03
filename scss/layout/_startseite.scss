@@ -26,6 +26,14 @@ header{
 .teaser{
 	@extend %grid__item;
 	@extend %one-whole;
+	position: relative;
+}
+
+.teaser h1{
+	position: absolute;
+  @include rem("left", 30);
+  @include rem("bottom", 20);
+  color: white;
 }
 
 .breadcrumb{

@@ -1,6 +1,19 @@
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+  border-bottom: $border;
+  margin: 0;
+  line-height: 1;
+  @include rem("padding-bottom", 10);
+}
+
+.box h2, .box h3{
+  width: 75%;
+}
+
 h1,.alpha{
   @include rem("font-size", 36, true);
   color: $darkgray;
+  border-bottom: 0;
 }
 h2,.beta{
   @include rem("font-size", 24, true);
@@ -26,18 +39,6 @@ h5,.epsilon{
 h6,.zeta{
   @include rem("padding-top", 11, true);
   color: $lightgray;
-}
-
-h1, h2, h3, h4, h5, h6{
-  font-weight: normal;
-  border-bottom: $border;
-  margin: 0;
-  line-height: 1;
-  @include rem("padding-bottom", 10);
-}
-
-.box h2, .box h3{
-  width: 75%;
 }
 
 /**
