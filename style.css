@@ -458,7 +458,7 @@ table {
  * 2. Remove any margins and paddings that might affect the grid system.
  * 3. Apply a negative `margin-left` to negate the columns’ gutters.
  */
-header, .content, footer, .searchform {
+header, .content, footer {
   list-style: none;
   /* [1] */
   margin: 0;
@@ -475,7 +475,7 @@ header, .content, footer, .searchform {
  * 4. Full-width unless told to behave otherwise.
  * 5. Required to combine fluid widths and fixed gutters.
  */
-.logo, .mainnav, .teaser, .breadcrumb, .box, .footernav, .search, .copyright, .searchform input[type=search], .searchform input[type=submit] {
+.logo, .mainnav, .teaser, .breadcrumb, .box, .footernav, .search, .copyright {
   display: inline-block;
   /* [1] */
   padding-left: 2%;
@@ -540,12 +540,6 @@ header, .content, footer, .searchform {
 /**
  * Quarters
  */
-.searchform input[type=submit] {
-  width: 25%; }
-
-.searchform input[type=search] {
-  width: 75%; }
-
 /**
  * Fifths
  */
@@ -583,6 +577,12 @@ header, .content, footer, .searchform {
   /**
    * Quarters
    */
+  .logo {
+    width: 25%; }
+
+  .mainnav {
+    width: 75%; }
+
   /**
    * Fifths
    */
@@ -620,12 +620,6 @@ header, .content, footer, .searchform {
   /**
    * Quarters
    */
-  .logo {
-    width: 25%; }
-
-  .mainnav {
-    width: 75%; }
-
   /**
    * Fifths
    */
@@ -1038,6 +1032,12 @@ a, a:link, a:visited {
 a:hover {
   color: #acacac; }
 
+input {
+  background: white;
+  border: 1px solid #7d7d7d;
+  margin: 0;
+  padding: 0; }
+
 /*--------------------------------------- Module Import ---------------------------------------*/
 .box {
   margin-bottom: 20px;
@@ -1048,7 +1048,6 @@ a:hover {
 /*--------------------------------------- Grob ---------------------------------------*/
 /*--------------------------------------- Header ---------------------------------------*/
 .logo img {
-  max-width: 170px;
   margin: 1.53846em 0; }
 
 .mainnav {
@@ -1073,9 +1072,15 @@ a:hover {
 /*--------------------------------------- Footer ---------------------------------------*/
 footer > .line {
   border-top: 1px solid #7d7d7d;
-  margin-left: 2%;
-  margin-bottom: 40px;
-  margin-bottom: 2.5rem; }
+  margin-left: 2%; }
+
+.footernav {
+  margin-top: 40px;
+  margin-top: 2.5rem; }
+
+.search {
+  margin-top: 40px;
+  margin-top: 2.5rem; }
 
 .copyright {
   margin-top: 20px;
@@ -1084,6 +1089,21 @@ footer > .line {
   margin-bottom: 2.5rem;
   font-size: 11px;
   font-size: 0.6875em;
-  font-size: 0.6875rem; }
+  font-size: 0.6875rem;
+  color: #acacac; }
+
+.searchform {
+  width: 100%;
+  border: 1px solid #7d7d7d; }
+  .searchform input {
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+    height: 100%; }
+  .searchform input[type=search] {
+    width: 75%; }
+  .searchform input[type=submit] {
+    width: 24%;
+    border-left: 1px solid #7d7d7d; }
 
 /*--------------------------------------- Layout ---------------------------------------*/
