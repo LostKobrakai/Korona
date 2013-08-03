@@ -37,3 +37,9 @@
         }
     }
 }
+
+@mixin rem($property, $value, $em: false){
+    #{$property}: #{$value}px;
+    @if $em == true { #{$property}: $value/$main-font-size * .8125em; }
+    #{$property}: $value/$main-font-size * .8125rem;
+}

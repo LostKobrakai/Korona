@@ -602,15 +602,18 @@ header, .content {
   /**
    * Thirds
    */
-  .logo, .box.produkte, .box.referenzen, .box {
+  .box.produkte, .box.referenzen, .box {
     width: 33.333%; }
-
-  .mainnav {
-    width: 66.666%; }
 
   /**
    * Quarters
    */
+  .logo {
+    width: 25%; }
+
+  .mainnav {
+    width: 75%; }
+
   /**
    * Fifths
    */
@@ -858,37 +861,79 @@ body {
   color: #4c4c4c;
   font-family: "Open Sans", "helvetica neue", helvetica, arial, sans-serif;
   font-size: .8125em;
-  line-height: 1.538461538; }
+  line-height: 1.538461538;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, white 150px);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(150px, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eeeeee 0%, white 150px);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eeeeee 0%, white 150px);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #eeeeee 0%, white 150px);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #eeeeee 0%, white 150px);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
 
 h1, .alpha {
-  font-size: 2.769230769em;
+  font-size: 36px;
+  font-size: 2.25em;
+  font-size: 2.25rem;
   color: #232323; }
 
 h2, .beta {
-  font-size: 1.846153846em;
+  font-size: 24px;
+  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #232323;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 h3, .gamma {
-  font-size: 1.153846154em;
+  font-size: 15px;
+  font-size: 0.9375em;
+  font-size: 0.9375rem;
+  padding-top: 9px;
+  padding-top: 0.5625em;
+  padding-top: 0.5625rem;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
 h4, .delta {
-  font-size: 1.153846154em; }
+  font-size: 15px;
+  font-size: 0.9375em;
+  font-size: 0.9375rem;
+  padding-top: 9px;
+  padding-top: 0.5625em;
+  padding-top: 0.5625rem; }
 
 h5, .epsilon {
+  padding-top: 11px;
+  padding-top: 0.6875em;
+  padding-top: 0.6875rem;
   font-weight: bold;
   color: #acacac; }
 
 h6, .zeta {
+  padding-top: 11px;
+  padding-top: 0.6875em;
+  padding-top: 0.6875rem;
   color: #acacac; }
 
 h1, h2, h3, h4, h5, h6 {
-  width: 75%;
   font-weight: normal;
-  border-bottom: 1px solid #7d7d7d; }
+  border-bottom: 1px solid #7d7d7d;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 10px;
+  padding-bottom: 0.625rem; }
+
+.box h2, .box h3 {
+  width: 75%; }
 
 /**
  * A series of classes for setting massive type; for use in heroes, mastheads,
@@ -935,12 +980,18 @@ img {
   *display: inline;
   zoom: 1; }
 
-.site-nav {
+.mainnav ul {
   width: 100%;
-  background: #eee; }
-
-.site-nav a {
-  padding: 5px 10px; }
+  margin: 0;
+  padding: 0; }
+  .mainnav ul li a {
+    height: 87px;
+    line-height: 87px;
+    padding: 0 10px; }
+    .mainnav ul li a:hover {
+      color: #232323;
+      background: #ffffff;
+      background: rgba(255, 255, 255, 0.7); }
 
 .breadcrumb li:before {
   content: "» "; }
@@ -959,12 +1010,24 @@ a, a:link, a:visited {
   text-decoration: none; }
 
 a:hover {
-  color: #f5d300; }
+  color: #acacac; }
 
 /*--------------------------------------- Module Import ---------------------------------------*/
+.box {
+  margin-bottom: 20px;
+  margin-bottom: 1.25em;
+  margin-bottom: 1.25rem; }
+
 /*--------------------------------------- Layout ---------------------------------------*/
 /*--------------------------------------- Grob ---------------------------------------*/
 /*--------------------------------------- Header ---------------------------------------*/
+.logo img {
+  max-width: 170px;
+  margin: 1.53846em 0; }
+
+.mainnav {
+  text-align: right; }
+
 /*--------------------------------------- Content ---------------------------------------*/
 /*--------------------------------------- Footer ---------------------------------------*/
 /*--------------------------------------- Layout ---------------------------------------*/

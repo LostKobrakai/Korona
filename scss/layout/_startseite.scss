@@ -8,13 +8,19 @@ header{
 .logo{
 	@extend %grid__item;
 	@extend %one-whole;
-  @extend %threecol--one-third;
+  @extend %threecol--one-quarter;
+}
+
+.logo img{
+	max-width: 170px;
+	margin: $lh 0;
 }
 
 .mainnav{
 	@extend %grid__item;
 	@extend %one-whole;
-  @extend %threecol--two-thirds;
+  @extend %threecol--three-quarters;
+  text-align: right;
 }
 
 .teaser{

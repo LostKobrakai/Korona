@@ -1,33 +1,43 @@
 h1,.alpha{
-  font-size: 2.769230769em;
+  @include rem("font-size", 36, true);
   color: $darkgray;
 }
 h2,.beta{
-  font-size: 1.846153846em;
+  @include rem("font-size", 24, true);
   color: $darkgray;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 h3,.gamma{
-  font-size: 1.153846154em;
+  @include rem("font-size", 15, true);
+  @include rem("padding-top", 9, true);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 h4,.delta{
-  font-size: 1.153846154em;
+  @include rem("font-size", 15, true);
+  @include rem("padding-top", 9, true);
 }
 h5,.epsilon{
+  @include rem("padding-top", 11, true);
   font-weight: bold;
   color: $lightgray;
 }
 h6,.zeta{
+  @include rem("padding-top", 11, true);
   color: $lightgray;
 }
 
 h1, h2, h3, h4, h5, h6{
-  width: 75%;
   font-weight: normal;
   border-bottom: $border;
+  margin: 0;
+  line-height: 1;
+  @include rem("padding-bottom", 10);
+}
+
+.box h2, .box h3{
+  width: 75%;
 }
 
 /**
