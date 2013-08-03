@@ -26,15 +26,31 @@
 }
 
 
-.breadcrumb{}
-    .breadcrumb li:before{
-        content:"» "
-    }
-    .breadcrumb li:first-child:before{
-        content:normal;
-    }
+.breadcrumb{
+	@include rem("font-size", 12, true);
+  @include rem("margin-top", 10);
+  @include rem("margin-bottom", 20);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+	li:before{
+    content:"» "
+  }
+  li:last-child:before{
+  	content:normal;
+  }
+}
 
 
-.sponsors{
-  text-align:center;
+.footernav .nav{
+  margin: 0;
+  padding: 0;
+
+  li a{
+  	padding: 0 10px;
+  }
+
+  li a:first-child{
+  	padding-left: 0;
+  }
 }

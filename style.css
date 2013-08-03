@@ -458,7 +458,7 @@ table {
  * 2. Remove any margins and paddings that might affect the grid system.
  * 3. Apply a negative `margin-left` to negate the columns’ gutters.
  */
-header, .content {
+header, .content, footer, .searchform {
   list-style: none;
   /* [1] */
   margin: 0;
@@ -475,7 +475,7 @@ header, .content {
  * 4. Full-width unless told to behave otherwise.
  * 5. Required to combine fluid widths and fixed gutters.
  */
-.logo, .mainnav, .teaser, .breadcrumb, .box {
+.logo, .mainnav, .teaser, .breadcrumb, .box, .footernav, .search, .copyright, .searchform input[type=search], .searchform input[type=submit] {
   display: inline-block;
   /* [1] */
   padding-left: 2%;
@@ -528,7 +528,7 @@ header, .content {
 /**
  * Whole
  */
-.logo, .mainnav, .teaser, .breadcrumb, .box {
+.box h2, .box h3, .logo, .mainnav, .teaser, .breadcrumb, .box, .footernav, .search, .copyright {
   width: 100%; }
 
 /**
@@ -540,6 +540,12 @@ header, .content {
 /**
  * Quarters
  */
+.searchform input[type=submit] {
+  width: 25%; }
+
+.searchform input[type=search] {
+  width: 75%; }
+
 /**
  * Fifths
  */
@@ -558,7 +564,7 @@ header, .content {
 /**
  * Our responsive classes, if we have enabled them.
  */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 550px) {
   /**
    * Whole
    */
@@ -583,6 +589,9 @@ header, .content {
   /**
    * Sixths
    */
+  .box h2, .box h3 {
+    width: 83.333%; }
+
   /**
    * Eighths
    */
@@ -602,8 +611,11 @@ header, .content {
   /**
    * Thirds
    */
-  .box.produkte, .box.referenzen, .box {
+  .box.produkte, .box.referenzen, .box, .search {
     width: 33.333%; }
+
+  .footernav {
+    width: 66.666%; }
 
   /**
    * Quarters
@@ -668,7 +680,7 @@ header, .content {
 /**
  * Twelfths
  */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 550px) {
   /**
    * Whole
    */
@@ -767,7 +779,7 @@ header, .content {
 /**
  * Twelfths
  */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 550px) {
   /**
    * Whole
    */
@@ -885,10 +897,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   line-height: 1;
   padding-bottom: 10px;
-  padding-bottom: 0.625rem; }
-
-.box h2, .box h3 {
-  width: 75%; }
+  padding-bottom: 0.625rem;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem; }
 
 h1, .alpha {
   font-size: 36px;
@@ -994,14 +1005,28 @@ img {
       background: #ffffff;
       background: rgba(255, 255, 255, 0.7); }
 
-.breadcrumb li:before {
-  content: "» "; }
+.breadcrumb {
+  font-size: 12px;
+  font-size: 0.75em;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  margin-top: 0.625rem;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .breadcrumb li:before {
+    content: "» "; }
+  .breadcrumb li:last-child:before {
+    content: normal; }
 
-.breadcrumb li:first-child:before {
-  content: normal; }
-
-.sponsors {
-  text-align: center; }
+.footernav .nav {
+  margin: 0;
+  padding: 0; }
+  .footernav .nav li a {
+    padding: 0 10px; }
+  .footernav .nav li a:first-child {
+    padding-left: 0; }
 
 a:after {
   content: " »"; }
@@ -1041,5 +1066,24 @@ a:hover {
   color: white; }
 
 /*--------------------------------------- Content ---------------------------------------*/
+.startseite .box {
+  margin-bottom: 40px;
+  margin-bottom: 2.5rem; }
+
 /*--------------------------------------- Footer ---------------------------------------*/
+footer > .line {
+  border-top: 1px solid #7d7d7d;
+  margin-left: 2%;
+  margin-bottom: 40px;
+  margin-bottom: 2.5rem; }
+
+.copyright {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
+  font-size: 11px;
+  font-size: 0.6875em;
+  font-size: 0.6875rem; }
+
 /*--------------------------------------- Layout ---------------------------------------*/

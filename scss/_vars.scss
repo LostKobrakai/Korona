@@ -4,7 +4,7 @@ $push: true;
 $pull: true;
 $breakpoints: (
     'threecol' '(min-width: 960px)',
-    'twocol' '(min-width: 480px)'
+    'twocol' '(min-width: 550px)'
 );
 $breakpoint-has-widths: ('twocol', 'threecol');
 $breakpoint-has-push:   ('twocol', 'threecol');

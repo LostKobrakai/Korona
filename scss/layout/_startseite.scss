@@ -63,4 +63,51 @@ header{
 	@extend %threecol--one-third;
 }
 
+.startseite .box{
+	@include rem("margin-bottom", 40);
+}
+
 /*--------------------------------------- Footer ---------------------------------------*/
+
+footer{
+	@extend %grid;
+}
+
+footer > .line{
+	border-top: $border;
+	margin-left: 2%;
+	@include rem("margin-bottom", 40);
+}
+
+.footernav{
+	@extend %grid__item;
+	@extend %one-whole;
+	@extend %threecol--two-thirds;
+}
+
+.search{
+	@extend %grid__item;
+	@extend %one-whole;
+	@extend %threecol--one-third;
+}
+
+.copyright{
+	@extend %grid__item;
+	@extend %one-whole;
+	@include rem("margin-top", 20);
+	@include rem("margin-bottom", 40);
+	@include rem("font-size", 11, true);
+}
+
+.searchform{
+	@extend %grid;
+
+	input[type=search]{
+		@extend %grid__item;
+		@extend %three-quarters;
+	}
+	input[type=submit]{
+		@extend %grid__item;
+		@extend %one-quarter;
+	}
+}

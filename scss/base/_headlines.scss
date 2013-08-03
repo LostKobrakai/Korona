@@ -4,10 +4,12 @@ h1, h2, h3, h4, h5, h6{
   margin: 0;
   line-height: 1;
   @include rem("padding-bottom", 10);
+  @include rem("margin-bottom", 20);
 }
 
 .box h2, .box h3{
-  width: 75%;
+  @extend %one-whole;
+  @extend %twocol--ten-twelfths;
 }
 
 h1,.alpha{

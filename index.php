@@ -1,7 +1,7 @@
 <?php
 	include("header.php");
 ?>
-	<div class="content">
+	<div class="content startseite">
 		<div>
 			<div class="produkte box">
 				<h2>Produkte</h2>
@@ -9,11 +9,11 @@
 			</div><!--
 			 --><div class="box systemprodukte">
 				<h3><a href="#">Systemprodukte</a></h3>
-				<img src="" alt="">
+				<img src="images/startseite/system.jpg" alt="">
 			</div><!--
 			 --><div class="box sonderanfertigungen">
 				<h3><a href="#">Sonderanfertigungen</a></h3>
-				<img src="" alt="">
+				<img src="images/startseite/sonder.jpg" alt="">
 			</div>
 		</div>
 		<div>
@@ -23,11 +23,11 @@
 			</div><!--
 			 --><div class="box außenbeleuchtung">
 				<h3><a href="#">Außenbeleuchtung</a></h3>
-				<img src="" alt="">
+				<img src="images/startseite/aussen.jpg" alt="">
 			</div><!--
 			 --><div class="box innenbeleuchtung">
 				<h3><a href="#">Innenbeleuchtung</a></h3>
-				<img src="" alt="">
+				<img src="images/startseite/innen.jpg" alt="">
 			</div>
 		</div>
 		<div>
