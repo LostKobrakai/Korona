@@ -14,10 +14,10 @@
 <body>
 	<header>
 		<div class="logo">
-			<img src="images/logo.png">
+			<a href="index.php"><img src="images/logo.png"></a>
 		</div><nav class="mainnav">
 			<ul class="nav">
-				<li><a href="">Produkte</a></li>
+				<li><a href="produkte.php">Produkte</a></li>
 				<li><a href="">Referenzen</a></li>
 				<li><a href="">Unternehmen</a></li>
 				<li><a href="">Kontakt</a></li>
@@ -25,9 +25,13 @@
 		</nav>
 		<div class="teaser">
 			<img src="images/header.jpg" alt="">
-			<h1>Korona Leuchten GmbH</h1>
+			<h1><?php echo $h1; ?></h1>
 		</div>
 		<ul class="nav breadcrumb">
-			<li>Home</li>
+			<?php
+			foreach($breadcrumb as $key => $value){
+				echo "<li><a href='$value'>$key</a></li>";
+			}
+			?>
 		</ul>
 	</header>

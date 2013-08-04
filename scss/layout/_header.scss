@@ -1,0 +1,41 @@
+/*--------------------------------------- Grob ---------------------------------------*/
+header{
+	@extend %grid;
+}
+
+
+/*--------------------------------------- Header ---------------------------------------*/
+.logo{
+	@extend %grid__item;
+	@extend %one-whole;
+	@extend %twocol--one-quarter;
+}
+
+.logo img{
+	margin: $lh 0;
+}
+
+.mainnav{
+	@extend %grid__item;
+	@extend %one-whole;
+	@extend %twocol--three-quarters;
+  text-align: right;
+}
+
+.teaser{
+	@extend %grid__item;
+	@extend %one-whole;
+	position: relative;
+}
+
+.teaser h1{
+	position: absolute;
+  @include rem("left", 30);
+  @include rem("bottom", 20);
+  color: white;
+}
+
+.breadcrumb{
+	@extend %grid__item;
+	@extend %one-whole;
+}

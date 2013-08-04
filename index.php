@@ -1,4 +1,6 @@
 <?php
+	$h1 = "Korona Leuchten GmbH";
+	$breadcrumb = array("Home" => "index.php");
 	include("header.php");
 ?>
 	<div class="content startseite">

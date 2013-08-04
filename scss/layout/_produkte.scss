@@ -1,0 +1,8 @@
+.produkte{
+	.systemprodukte, .sonderanfertigungen{
+		@extend %one-whole;
+	}
+	.info{
+		margin: .5em 6% 1em;
+	}
+}

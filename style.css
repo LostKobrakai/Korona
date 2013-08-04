@@ -458,7 +458,7 @@ table {
  * 2. Remove any margins and paddings that might affect the grid system.
  * 3. Apply a negative `margin-left` to negate the columns’ gutters.
  */
-header, .content, footer {
+footer, header, .content {
   list-style: none;
   /* [1] */
   margin: 0;
@@ -475,7 +475,7 @@ header, .content, footer {
  * 4. Full-width unless told to behave otherwise.
  * 5. Required to combine fluid widths and fixed gutters.
  */
-.logo, .mainnav, .teaser, .breadcrumb, .box, .footernav, .search, .copyright {
+.box, .footernav, .search, .copyright, .logo, .mainnav, .teaser, .breadcrumb {
   display: inline-block;
   /* [1] */
   padding-left: 2%;
@@ -528,7 +528,7 @@ header, .content, footer {
 /**
  * Whole
  */
-.box h2, .box h3, .logo, .mainnav, .teaser, .breadcrumb, .box, .footernav, .search, .copyright {
+.box, .footernav, .search, .copyright, .searchform, .logo, .mainnav, .teaser, .breadcrumb, .produkte .systemprodukte, .produkte .sonderanfertigungen {
   width: 100%; }
 
 /**
@@ -540,6 +540,12 @@ header, .content, footer {
 /**
  * Quarters
  */
+.searchform input[type=submit] {
+  width: 25%; }
+
+.searchform input[type=search] {
+  width: 75%; }
+
 /**
  * Fifths
  */
@@ -562,13 +568,13 @@ header, .content, footer {
   /**
    * Whole
    */
-  .box.produkte, .box.referenzen {
+  .startseite .box.produkte, .startseite .box.referenzen {
     width: 100%; }
 
   /**
    * Halves
    */
-  .box {
+  .box, .searchform {
     width: 50%; }
 
   /**
@@ -589,9 +595,6 @@ header, .content, footer {
   /**
    * Sixths
    */
-  .box h2, .box h3 {
-    width: 83.333%; }
-
   /**
    * Eighths
    */
@@ -605,13 +608,16 @@ header, .content, footer {
   /**
    * Whole
    */
+  .searchform {
+    width: 100%; }
+
   /**
    * Halves
    */
   /**
    * Thirds
    */
-  .box.produkte, .box.referenzen, .box, .search {
+  .box, .search, .startseite .box.produkte, .startseite .box.referenzen {
     width: 33.333%; }
 
   .footernav {
@@ -712,7 +718,7 @@ header, .content, footer {
   /**
    * Thirds
    */
-  .korona, .kontakt {
+  .startseite .korona, .startseite .kontakt {
     left: 33.333%;
     position: relative; }
 
@@ -900,7 +906,9 @@ h1, .alpha {
   font-size: 2.25em;
   font-size: 2.25rem;
   color: #232323;
-  border-bottom: 0; }
+  border-bottom: 0;
+  margin: 0;
+  padding: 0; }
 
 h2, .beta {
   font-size: 24px;
@@ -1009,9 +1017,9 @@ img {
   margin-bottom: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 1px; }
-  .breadcrumb li:before {
-    content: "» "; }
-  .breadcrumb li:last-child:before {
+  .breadcrumb li {
+    padding-right: 4px; }
+  .breadcrumb li:last-child a:after {
     content: normal; }
 
 .footernav .nav {
@@ -1045,30 +1053,6 @@ input {
   margin-bottom: 1.25rem; }
 
 /*--------------------------------------- Layout ---------------------------------------*/
-/*--------------------------------------- Grob ---------------------------------------*/
-/*--------------------------------------- Header ---------------------------------------*/
-.logo img {
-  margin: 1.53846em 0; }
-
-.mainnav {
-  text-align: right; }
-
-.teaser {
-  position: relative; }
-
-.teaser h1 {
-  position: absolute;
-  left: 30px;
-  left: 1.875rem;
-  bottom: 20px;
-  bottom: 1.25rem;
-  color: white; }
-
-/*--------------------------------------- Content ---------------------------------------*/
-.startseite .box {
-  margin-bottom: 40px;
-  margin-bottom: 2.5rem; }
-
 /*--------------------------------------- Footer ---------------------------------------*/
 footer > .line {
   border-top: 1px solid #7d7d7d;
@@ -1093,17 +1077,39 @@ footer > .line {
   color: #acacac; }
 
 .searchform {
-  width: 100%;
   border: 1px solid #7d7d7d; }
   .searchform input {
     display: inline-block;
     vertical-align: top;
     border: 0;
     height: 100%; }
-  .searchform input[type=search] {
-    width: 75%; }
   .searchform input[type=submit] {
-    width: 24%;
     border-left: 1px solid #7d7d7d; }
+
+/*--------------------------------------- Grob ---------------------------------------*/
+/*--------------------------------------- Header ---------------------------------------*/
+.logo img {
+  margin: 1.53846em 0; }
+
+.mainnav {
+  text-align: right; }
+
+.teaser {
+  position: relative; }
+
+.teaser h1 {
+  position: absolute;
+  left: 30px;
+  left: 1.875rem;
+  bottom: 20px;
+  bottom: 1.25rem;
+  color: white; }
+
+.startseite .box {
+  margin-bottom: 40px;
+  margin-bottom: 2.5rem; }
+
+.produkte .info {
+  margin: .5em 6% 1em; }
 
 /*--------------------------------------- Layout ---------------------------------------*/

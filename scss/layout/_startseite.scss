@@ -1,121 +1,18 @@
-/*--------------------------------------- Grob ---------------------------------------*/
-header{
-	@extend %grid;
-}
-
-
-/*--------------------------------------- Header ---------------------------------------*/
-.logo{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %twocol--one-quarter;
-}
-
-.logo img{
-	margin: $lh 0;
-}
-
-.mainnav{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %twocol--three-quarters;
-  text-align: right;
-}
-
-.teaser{
-	@extend %grid__item;
-	@extend %one-whole;
-	position: relative;
-}
-
-.teaser h1{
-	position: absolute;
-  @include rem("left", 30);
-  @include rem("bottom", 20);
-  color: white;
-}
-
-.breadcrumb{
-	@extend %grid__item;
-	@extend %one-whole;
-}
-
-/*--------------------------------------- Content ---------------------------------------*/
-
 .content{
 	@extend %grid;
 }
 
-.box.produkte, .box.referenzen{
-	@extend %twocol--one-whole;
-	@extend %threecol--one-third;
-}
-
-.korona, .kontakt{
-	@extend %push--threecol--one-third;
-}
-
-.box{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %twocol--one-half;
-	@extend %threecol--one-third;
-}
-
-.startseite .box{
-	@include rem("margin-bottom", 40);
-}
-
-/*--------------------------------------- Footer ---------------------------------------*/
-
-footer{
-	@extend %grid;
-}
-
-footer > .line{
-	border-top: $border;
-	margin-left: 2%;
-}
-
-.footernav{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %threecol--two-thirds;
-	@include rem("margin-top", 40);
-}
-
-.search{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %threecol--one-third;
-	@include rem("margin-top", 40);
-}
-
-.copyright{
-	@extend %grid__item;
-	@extend %one-whole;
-	@include rem("margin-top", 20);
-	@include rem("margin-bottom", 40);
-	@include rem("font-size", 11, true);
-	color: $lightgray;
-}
-
-.searchform{
-	width: 100%;
-	border: $border;
-
-	input{
-		display: inline-block;
-		vertical-align: top;
-		border: 0;
-		height: 100%;
+.startseite{
+	.box.produkte, .box.referenzen{
+		@extend %twocol--one-whole;
+		@extend %threecol--one-third;
 	}
 
-	input[type=search]{
-		width: 75%;
+	.korona, .kontakt{
+		@extend %push--threecol--one-third;
 	}
-	input[type=submit]{
-		width: 24%;
-		border-left: $border;
+
+	.box{
+		@include rem("margin-bottom", 40);
 	}
 }
