@@ -1,41 +1,54 @@
 /*--------------------------------------- Grob ---------------------------------------*/
 header{
-	@extend %grid;
+	@extend .grid;
 }
 
 
 /*--------------------------------------- Header ---------------------------------------*/
 .logo{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %twocol--one-quarter;
+	@extend .grid__item;
+	@extend .one-whole;
+	@extend .bp-med--one-third;
+}
+
+.logo a:after{
+	content: normal;
 }
 
 .logo img{
-	margin: $lh 0;
+	margin: $space 0;
 }
 
 .mainnav{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %twocol--three-quarters;
+	@extend .grid__item;
+	@extend .one-whole;
+	@extend .bp-med--two-thirds;
   text-align: right;
 }
 
 .teaser{
-	@extend %grid__item;
-	@extend %one-whole;
+	@extend .grid__item;
+	@extend .one-whole;
 	position: relative;
+	height: 300px;
+	overflow: hidden;
 }
 
 .teaser h1{
 	position: absolute;
-  @include rem("left", 30);
-  @include rem("bottom", 20);
+  left: $space-and-half;
+  bottom: $space;
   color: white;
 }
 
+.teaser img {
+	width: 100%;
+	max-width: none;
+	min-height: 100%;
+	text-align: center;
+}
+
 .breadcrumb{
-	@extend %grid__item;
-	@extend %one-whole;
+	@extend .grid__item;
+	@extend .one-whole;
 }

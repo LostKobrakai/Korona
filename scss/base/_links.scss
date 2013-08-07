@@ -1,12 +1,26 @@
-a:after{
-	content: " »";
-}
-
-a, a:link, a:visited{
-	color: inherit;
+/* Links */
+a {
+	color: $gray-light;
 	text-decoration: none;
+	outline: 0;
+
+	&:after{
+		font-size: .8em;
+		font-family: webdings;
+		content: "4";
+		speak: none;
+		font-weight: normal;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
+
+	&:hover, &:focus {
+		color: $gray-dark;
+		text-decoration: underline;
+	}
 }
 
-a:hover{
-	color: $lightgray;
+a.noarr:after{
+	content: normal;
 }

@@ -1,61 +1,47 @@
-h1, h2, h3, h4, h5, h6{
+/* Headings */
+/*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
+h1, h2, h3, h4, h6{
   font-weight: normal;
-  border-bottom: $border;
-  margin: 0;
-  line-height: 1;
-  @include rem("padding-bottom", 10);
-  @include rem("margin-bottom", 20);
 }
 
-// .box h2, .box h3{
-//   @extend %one-whole;
-//   @extend %twocol--ten-twelfths;
-// }
-
-h1,.alpha{
-  @include rem("font-size", 36, true);
-  color: $darkgray;
-  border-bottom: 0;
-  margin: 0;
-  padding: 0;
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+  color: inherit;
 }
-h2,.beta{
-  @include rem("font-size", 24, true);
-  color: $darkgray;
+
+%uppercase{
   text-transform: uppercase;
-  letter-spacing: 2px;
-}
-h3,.gamma{
-  @include rem("font-size", 15, true);
-  @include rem("padding-top", 9, true);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-h4,.delta{
-  @include rem("font-size", 15, true);
-  @include rem("padding-top", 9, true);
-}
-h5,.epsilon{
-  @include rem("padding-top", 11, true);
-  font-weight: bold;
-  color: $lightgray;
-}
-h6,.zeta{
-  @include rem("padding-top", 11, true);
-  color: $lightgray;
+  letter-spacing: .1em;
 }
 
-/**
- * A series of classes for setting massive type; for use in heroes, mastheads,
- * promos, etc.
+h1, .alpha   {
+  @include font-size((36/16), x-large);
+  line-height: 1.2;
+  color: $gray-dark;
+}
 
-.giga{
-    @include font-size($giga-size);
+h2, .beta    {
+  @include font-size((24/16), x-large);
+  @extend %uppercase;
+  line-height: 1.2;
+  color: $gray-dark;
 }
-.mega{
-    @include font-size($mega-size);
+
+h3, .gamma   {
+  @include font-size((15/16), large);
+  @extend %uppercase;
+  line-height: 1.2;
 }
-.kilo{
-    @include font-size($kilo-size);
+
+h4, .delta   {
+  @include font-size((15/16), large);
 }
- */
+
+h5, .epsilon {
+  @include font-size((13/16), medium);
+  color: $gray-light;
+}
+
+h6, .zeta    {
+  @include font-size((13/16), medium);
+  color: $gray-light;
+}

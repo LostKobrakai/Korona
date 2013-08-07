@@ -1,55 +1,38 @@
 /*--------------------------------------- Footer ---------------------------------------*/
 
 footer{
-	@extend %grid;
+	@extend .grid;
 }
 
 footer > .line{
-	border-top: $border;
-	margin-left: 2%;
+	@media all and (max-width: $bp-small-2){
+		hr{
+			background: $white;
+		}
+	}
 }
 
 .footernav{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %threecol--two-thirds;
-	@include rem("margin-top", 40);
+	@extend .grid__item;
+	@extend .one-whole;
+	@extend .bp-med--two-thirds;
 }
 
 .search{
-	@extend %grid__item;
-	@extend %one-whole;
-	@extend %threecol--one-third;
-	@include rem("margin-top", 40);
+	@extend .grid__item;
+	@extend .one-whole;
+	@extend .bp-med--one-third;
+	margin-top: $space * 2;
+	@media all and (min-width: $bp-med){
+		margin-top: 0;
+	}
 }
 
 .copyright{
-	@extend %grid__item;
-	@extend %one-whole;
-	@include rem("margin-top", 20);
-	@include rem("margin-bottom", 40);
-	@include rem("font-size", 11, true);
-	color: $lightgray;
-}
-
-.searchform{
-	@extend %one-whole;
-	@extend %twocol--one-half;
-	@extend %threecol--one-whole;
-	border: $border;
-
-	input{
-		display: inline-block;
-		vertical-align: top;
-		border: 0;
-		height: 100%;
-	}
-
-	input[type=search]{
-		@extend %three-quarters;
-	}
-	input[type=submit]{
-		border-left: $border;
-		@extend %one-quarter;
-	}
+	@extend .grid__item;
+	@extend .one-whole;
+	@include font-size((11/16), small);
+	margin-top: $space;
+	margin-bottom: $space * 2;
+	color: $gray-light;
 }

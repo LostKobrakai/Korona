@@ -17,20 +17,24 @@
 			<a href="index.php"><img src="images/logo.png"></a>
 		</div><nav class="mainnav">
 			<ul class="nav">
-				<li><a href="produkte.php">Produkte</a></li>
-				<li><a href="">Referenzen</a></li>
-				<li><a href="">Unternehmen</a></li>
-				<li><a href="">Kontakt</a></li>
+				<li><a href="produkte.php">Produkte</a>
+				<li><a href="">Referenzen</a>
+				<li><a href="">Unternehmen</a>
+				<li><a href="">Kontakt</a>
 			</ul>
 		</nav>
 		<div class="teaser">
+			<?php if(!isset($teaser)) : ?>
 			<img src="images/header.jpg" alt="">
+			<?php else : ?>
+			<img src="<?php echo $teaser; ?>" alt="">
+			<?php endif; ?>
 			<h1><?php echo $h1; ?></h1>
 		</div>
 		<ul class="nav breadcrumb">
 			<?php
 			foreach($breadcrumb as $key => $value){
-				echo "<li><a href='$value'>$key</a></li>";
+				echo "<li><a href='$value'>$key</a>";
 			}
 			?>
 		</ul>

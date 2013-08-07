@@ -1,0 +1,27 @@
+.accordion {
+	margin-bottom: $space;
+
+	h3{
+		line-height: 1;
+		padding: $space 0 $space-half;
+		border-bottom: 1px solid $gray-korona;
+		margin-bottom: $space-half;
+	}
+}
+
+.acc-handle {
+	&:after {
+		content:" 5";
+		font-size: 1.2em;
+	}
+
+	&:hover {
+
+	}
+
+	&.active {
+		&:after {
+			content:" 6";
+		}
+	}
+}

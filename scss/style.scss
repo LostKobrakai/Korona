@@ -1,4 +1,4 @@
-@import "normalize";
+@import "reset";
 @import "vars";
 @import "csswizardry-grids.scss";
 @import "mixins";
@@ -6,17 +6,21 @@
 /*--------------------------------------- Base Import ---------------------------------------*/
 
 @import "base/main";
-@import "base/branding";
 @import "base/headlines";
+@import "base/texts";
 @import "base/lists";
-@import "base/images";
+@import "base/media";
+@import "base/tables";
 @import "base/navigation";
 @import "base/links";
 @import "base/forms";
+@import "base/global-classes";
 
 /*--------------------------------------- Module Import ---------------------------------------*/
 
-@import "modules/box";
+@import "modules/block";
+@import "modules/search";
+@import "modules/accordion";
 
 /*--------------------------------------- Layout ---------------------------------------*/
 

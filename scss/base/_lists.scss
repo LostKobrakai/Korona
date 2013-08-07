@@ -1,19 +1,19 @@
-/*------------------------------------*\
-    $LISTS
-\*------------------------------------*/
-/**
- * Remove vertical spacing from nested lists.
- */
-li{
-    > ul,
-    > ol{
-         margin-bottom:0;
-     }
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-/**
- * Have a numbered `ul` without the semantics implied by using an `ol`.
- */
-/*ul*/.numbered-list{
-    list-style-type:decimal;
+/* Definition Lists */
+dl {
+	overflow: hidden;
+	margin: 0 0 $space;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
 }

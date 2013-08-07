@@ -12,34 +12,11 @@
             #{$property}:$value;
 }
 
-/**
- * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
- * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
- * and over in your markup.
- */
-.cf{
-    &:after{
-        content:"";
-        display:table;
-        clear:both;
-    }
-}
-
-@if $global-border-box == true{
-    /**
-    * Let’s make the box model all nice, shall we...?
-    */
-    *{
-        &,
-        &:before,
-        &:after{
-            @include vendor(box-sizing, border-box);
-        }
-    }
-}
-
-@mixin rem($property, $value, $em: false){
-    #{$property}: #{$value}px;
-    @if $em == true { #{$property}: $value/$main-font-size * .8125em; }
-    #{$property}: $value/$main-font-size * .8125rem;
+/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
+    Usage: @include font-size(1, large);
+*/
+@mixin font-size( $decimal-size, $keyword: null ) {
+  @if $keyword{ font-size: $keyword; }
+  @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+  font-size: $decimal-size * 1rem;
 }
