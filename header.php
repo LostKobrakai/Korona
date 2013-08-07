@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<div class="logo">
-			<a href="index.php"><img src="images/logo.png"></a>
+			<a href="index.php" title="Startseite"><img src="images/logo.png" alt="Logo von Korona"></a>
 		</div><nav class="mainnav">
 			<ul class="nav">
 				<li><a href="produkte.php">Produkte</a>

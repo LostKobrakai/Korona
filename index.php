@@ -41,7 +41,20 @@
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 				<h2 class="headline"><a href="#">Kontakt</a></h2>
-				<p>Veritatis facere numquam obcaecati eum voluptate odit qui error rerum iure aperiam illum nesciunt. Tempora itaque consequuntur pariatur neque illo impedit quia nisi officia provident nemo ullam ad placeat fuga.</p>
+				<div class="b-text">
+					<div class="vcard">
+						<div class="fn">Stephan Meyer</div>
+						<div class="email">info@korona-licht.de</div>
+						<div class="tel">
+							<span class="type is-vishidden">Work</span>
+							T <span class="value">+49</span><span class="value">821</span><span class="value">90628-0</span>
+						</div>
+						<div class="tel">
+							<span class="type is-vishidden">Fax</span>
+							F <span class="value">+49</span><span class="value">821</span><span class="value">90628-12</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

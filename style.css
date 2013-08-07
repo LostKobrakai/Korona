@@ -4075,6 +4075,19 @@ h5.headline, h6.headline {
 .acc-handle.active:after {
   content: " 6"; }
 
+.fn {
+  font-weight: 600; }
+
+.value {
+  padding-right: 3px; }
+
+.b-downloads table {
+  font-size: medium;
+  font-size: 0.8125rem;
+  border: 0; }
+  .b-downloads table td {
+    border: 0; }
+
 /*--------------------------------------- Layout ---------------------------------------*/
 /*--------------------------------------- Footer ---------------------------------------*/
 @media all and (max-width: 29.75em) {

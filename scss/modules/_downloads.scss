@@ -1,0 +1,8 @@
+.b-downloads table{
+	@include font-size((13/16), medium);
+	border: 0;
+
+	td{
+		border: 0;
+	}
+}

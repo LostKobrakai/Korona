@@ -104,7 +104,6 @@
 							<td>Lichtberechnung:</td>
 							<td><a href="#">EXL</a></td>
 						</tr>
-						 <br>
 					</table>
 				</div>
 			</div><!--
