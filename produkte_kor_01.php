@@ -11,9 +11,9 @@
 		<div class="produkt">
 			<div class="p-images grid__item one-whole bp-large--two-thirds">
 				<div class="grid">
-					<img class="grid__item one-whole" src="images/produkte_kor_01/kor01_produkt_01.jpg" alt=""><!--
-					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_01/kor01_produkt_02.jpg" alt=""><!--
-					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_01/kor01_produkt_03.jpg" alt="">
+					<img class="grid__item one-whole" src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt=""><!--
+					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_01/kor01_produkt_klein.jpg" alt=""><!--
+					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_01/kor01_produkt_klein2.jpg" alt="">
 				</div>
 			</div><!--
 			 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
@@ -34,7 +34,7 @@
 								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
 								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
 						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/kor01_produkt_03.jpg" alt="Image"></div>
+						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
 							<h3>
@@ -135,21 +135,21 @@
 						<h3 class="headline">
 							<a href="#" class="inner">Forum Tashkent</a>
 						</h3>
-						<figure><img src="images/startseite/system.jpg" alt="Image">
+						<figure><img src="images/produkte_kor_01/09_forum_tashkent.jpg" alt="Image">
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
-							<a href="#" class="inner">Lehmbachhaus</a>
+							<a href="#" class="inner">ADAC Sendlinger Tor</a>
 						</h3>
-						<figure><img src="images/startseite/innen.jpg" alt="Image">
+						<figure><img src="images/produkte_kor_01/10_ADAC.jpg" alt="Image">
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
 							<a href="#" class="inner">Medienfabrik</a>
 						</h3>
-						<figure><img src="images/startseite/aussen.jpg" alt="Image">
+						<figure><img src="images/produkte_kor_01/09_medienfabrik.jpg" alt="Image">
 						</figure>
 					</div>
 				</div>
@@ -159,76 +159,60 @@
 					<a href="#" class="inner">Alle Systemprodukte</a>
 				</h2>
 				<div class="grid">
-					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_#01</a>
-						</h3>
+					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="produkte_kor_01.php">kor_#01</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor01_produkt_uebersicht.jpg" alt=""></a>
+						<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_#02</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">kor_#02</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor02_produkt_uebersicht.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_#03</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">kor_#03</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor03_produkt_uebersicht.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_#04</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">kor_#04</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor04_produkt_uebersicht.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_#05</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">kor_#05</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor05_produkt_uebersicht.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_#06</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">kor_#06</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor06_produkt_uebersicht.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">kor_magnLEDspot</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">kor_magnLEDspot</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kormagnet_produkt_uebersicht.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-systemprodukt">
-						<h3 class="headline">
-							<a href="#" class="inner">TailorLIGHT&reg;</a>
-						</h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
+						<h3 class="headline"><a href="#">TailorLIGHT&reg;</a></h3>
 						<figure>
-							<img src="images/produkte_kor_01/kor01_produkt_01.jpg" alt="Image">
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker</figcaption>
+							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kortailorlight_produkt_uebersicht2.jpg" alt=""></a>
+							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
 						</figure>
 					</div>
 				</div>

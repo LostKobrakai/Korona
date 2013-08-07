@@ -25,7 +25,7 @@
 		</nav>
 		<div class="teaser">
 			<?php if(!isset($teaser)) : ?>
-			<img src="images/header.jpg" alt="">
+			<img src="images/startseite/startseite_head.jpg" alt="">
 			<?php else : ?>
 			<img src="<?php echo $teaser; ?>" alt="">
 			<?php endif; ?>

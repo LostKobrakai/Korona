@@ -13,11 +13,11 @@
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
 				<h3 class="headline"><a href="produkte.php#system">Systemprodukte</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/system.jpg" alt=""></a>
+				<a class="noarr" href="#"><img src="images/startseite/startseite_forum_tashkent.jpg" alt=""></a>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
 				<h3 class="headline"><a href="produkte.php#sonder">Sonderanfertigungen</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/sonder.jpg" alt=""></a>
+				<a class="noarr" href="#"><img src="images/startseite/startseite_akka_kirche.jpg" alt=""></a>
 			</div>
 		</div>
 		<div>
@@ -27,11 +27,11 @@
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
 				<h3 class="headline"><a href="#">Außenbeleuchtung</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/aussen.jpg" alt=""></a>
+				<a class="noarr" href="#"><img src="images/startseite/startseite_linde_fassade.jpg" alt=""></a>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
 				<h3 class="headline"><a href="#">Innenbeleuchtung</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/innen.jpg" alt=""></a>
+				<a class="noarr" href="#"><img src="images/startseite/startseite_rathaus_schorndorf.jpg" alt=""></a>
 			</div>
 		</div>
 		<div>
