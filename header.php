@@ -29,9 +29,9 @@
 			<?php else : ?>
 			<img src="<?php echo $teaser; ?>" alt="">
 			<?php endif; ?>
-			<h1><?php echo $h1; ?></h1>
+			<h1 <?php if($hideh1) echo "class='is-vishidden'"; ?>><?php echo $h1; ?></h1>
 		</div>
-		<ul class="nav breadcrumb">
+		<ul class="nav breadcrumb <?php if($hidebreadcrumb) echo "is-vishidden"; ?>">
 			<?php
 			foreach($breadcrumb as $key => $value){
 				echo "<li><a href='$value'>$key</a>";

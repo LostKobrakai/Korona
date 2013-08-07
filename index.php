@@ -1,5 +1,7 @@
 <?php
 	$h1 = "Geschäftsführung";
+	$hideh1 = true;
+	$hidebreadcrumb = true;
 	$breadcrumb = array("Home" => "index.php");
 	include("header.php");
 ?>
@@ -10,11 +12,11 @@
 				<p class="b-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum labore ea exercitationem tempore! Voluptas animi nobis in temporibus rerum obcaecati provident consectetur hic similique ullam. Quas neque possimus ab deleniti!</p>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
-				<h3 class="headline"><a href="#">Systemprodukte</a></h3>
+				<h3 class="headline"><a href="produkte.php#system">Systemprodukte</a></h3>
 				<a class="noarr" href="#"><img src="images/startseite/system.jpg" alt=""></a>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
-				<h3 class="headline"><a href="#">Sonderanfertigungen</a></h3>
+				<h3 class="headline"><a href="produkte.php#sonder">Sonderanfertigungen</a></h3>
 				<a class="noarr" href="#"><img src="images/startseite/sonder.jpg" alt=""></a>
 			</div>
 		</div>
