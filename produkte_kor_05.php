@@ -1,19 +1,19 @@
 <?php
-	$h1 = "kor_#01";
-	$teaser = "images/produkte_kor_01/kor01_produkt_head.jpg";
+	$h1 = "kor_#05";
+	$teaser = "images/produkte_kor_05/kor05_produkt_head.jpg";
 	$breadcrumb = array("Home" => "index.php",
 											"Produkte" => "produkte.php",
 											"Systemprodukte" => "produkte.php#system",
-											"kor_#01" => "produkte_kor_01.php");
+											"kor_#05" => "produkte_kor_05.php");
 	include("header.php");
 ?>
 	<div class="content grid">
 		<div class="produkt">
 			<div class="p-images grid__item one-whole bp-large--two-thirds">
 				<div class="grid">
-					<img class="grid__item one-whole" src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt=""><!--
-					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_01/kor01_produkt_klein.jpg" alt=""><!--
-					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_01/kor01_produkt_klein2.jpg" alt="">
+					<img class="grid__item one-whole" src="images/produkte_kor_05/kor05_produkt_gross.jpg" alt=""><!--
+					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_05/kor05_produkt_klein.jpg" alt=""><!--
+					 --><img class="grid__item one-whole bp-small-2--one-half" src="images/produkte_kor_05/kor05_produkt_klein2.jpg" alt="">
 				</div>
 			</div><!--
 			 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
@@ -28,7 +28,7 @@
 					<ul>
 						<li>
 							<h3>
-								<a class="acc-handle">Vouten</a>
+								<a href="#" class="acc-handle active">Vouten</a>
 							</h3>
 							<div class="acc-panel grid">
 								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
@@ -38,53 +38,21 @@
 							</div>
 						<li>
 							<h3>
-								<a class="acc-handle">Fassade</a>
+								<a href="#" class="acc-handle">Raum</a>
 							</h3>
-							<div class="acc-panel grid">
-								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
-						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+							<div class="acc-panel">
 							</div>
 						<li>
 							<h3>
-								<a class="acc-handle">Raum</a>
+								<a href="#" class="acc-handle">Büro</a>
 							</h3>
-							<div class="acc-panel grid">
-								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
-						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+							<div class="acc-panel">
 							</div>
 						<li>
 							<h3>
-								<a class="acc-handle">Büro</a>
+								<a href="#" class="acc-handle">Farbe</a>
 							</h3>
-							<div class="acc-panel grid">
-								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
-						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
-							</div>
-						<li>
-							<h3>
-								<a class="acc-handle">Außen</a>
-							</h3>
-							<div class="acc-panel grid">
-								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
-						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
-							</div>
-						<li>
-							<h3>
-								<a class="acc-handle">Farbe</a>
-							</h3>
-							<div class="acc-panel grid">
-								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
-						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+							<div class="acc-panel">
 							</div>
 					</ul>
 				</div>
@@ -208,7 +176,7 @@
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="produkte_kor_01.php">kor_#05</a></h3>
+						<h3 class="headline"><a href="produkte_kor_05.php">kor_#05</a></h3>
 						<figure>
 							<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor05_produkt_uebersicht.jpg" alt=""></a>
 							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>

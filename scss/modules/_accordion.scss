@@ -15,13 +15,32 @@
 		font-size: 1.2em;
 	}
 
+	// Mac Shortfix
+	&:after{
+		font-family: 'FontAwesome';
+		content: "\f077";//"\25B8";
+		text-transform: none;
+		padding-left: 2px;
+	}
+
 	&:hover {
 
 	}
 
 	&.active {
 		&:after {
-			content:" 6";
+			content:"\f078";
 		}
+
+	}
+}
+
+.acc-panel{
+	max-height: 0;
+	overflow: hidden;
+	@include vendor("transition", "2s");
+
+	&.active{
+		max-height: none;
 	}
 }

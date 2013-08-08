@@ -150,5 +150,13 @@
       -webkit-font-smoothing: antialiased;
       font-style: normal;
     }
+
+    // Mac Shortfix
+    &:before{
+      font-family: 'FontAwesome';
+      content: "\f0da";//"\25B8";
+      text-transform: none;
+      padding: 0 3px;
+    }
   }
 }

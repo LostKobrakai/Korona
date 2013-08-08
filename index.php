@@ -13,11 +13,11 @@
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
 				<h3 class="headline"><a href="produkte.php#system">Systemprodukte</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/startseite_forum_tashkent.jpg" alt=""></a>
+				<a class="noarr" href="produkte.php#system"><img src="images/startseite/startseite_forum_tashkent.jpg" alt=""></a>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
 				<h3 class="headline"><a href="produkte.php#sonder">Sonderanfertigungen</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/startseite_akka_kirche.jpg" alt=""></a>
+				<a class="noarr" href="produkte.php#sonder"><img src="images/startseite/startseite_akka_kirche.jpg" alt=""></a>
 			</div>
 		</div>
 		<div>
@@ -26,12 +26,12 @@
 				<p class="b-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum labore ea exercitationem tempore! Voluptas animi nobis in temporibus rerum obcaecati provident consectetur hic similique ullam. Quas neque possimus ab deleniti!</p>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
-				<h3 class="headline"><a href="#">Außenbeleuchtung</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/startseite_linde_fassade.jpg" alt=""></a>
+				<h3 class="headline"><a href="referenzen.php">Außenbeleuchtung</a></h3>
+				<a class="noarr" href="referenzen.php"><img src="images/startseite/startseite_linde_fassade.jpg" alt=""></a>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third">
-				<h3 class="headline"><a href="#">Innenbeleuchtung</a></h3>
-				<a class="noarr" href="#"><img src="images/startseite/startseite_rathaus_schorndorf.jpg" alt=""></a>
+				<h3 class="headline"><a href="referenzen.php">Innenbeleuchtung</a></h3>
+				<a class="noarr" href="referenzen.php"><img src="images/startseite/startseite_rathaus_schorndorf.jpg" alt=""></a>
 			</div>
 		</div>
 		<div>

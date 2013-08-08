@@ -3549,6 +3549,23 @@ header, footer, nav, section, article, figure {
 /* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
     Usage: @include font-size(1, large);
 */
+/* Icon Font */
+@font-face {
+  font-family: 'entypo';
+  src: url("fonts/entypo.eot");
+  src: url("fonts/entypo.eot?#iefix") format("embedded-opentype"), url("fonts/entypo.woff") format("woff"), url("fonts/entypo.ttf") format("truetype"), url("fonts/entypo.svg#entypo") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
 /*--------------------------------------- Base Import ---------------------------------------*/
 html {
   overflow-y: scroll;
@@ -3828,6 +3845,11 @@ td {
       font-weight: normal;
       -webkit-font-smoothing: antialiased;
       font-style: normal; }
+    .breadcrumb li:before {
+      font-family: 'FontAwesome';
+      content: "\f0da";
+      text-transform: none;
+      padding: 0 3px; }
 
 /* Links */
 a {
@@ -3843,6 +3865,10 @@ a {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     font-style: normal; }
+  a:after {
+    font-family: 'FontAwesome';
+    content: " \f0da";
+    text-transform: none; }
   a:hover, a:focus {
     color: #232323;
     text-decoration: underline; }
@@ -4072,8 +4098,24 @@ h5.headline, h6.headline {
 .acc-handle:after {
   content: " 5";
   font-size: 1.2em; }
+.acc-handle:after {
+  font-family: 'FontAwesome';
+  content: "\f077";
+  text-transform: none;
+  padding-left: 2px; }
 .acc-handle.active:after {
-  content: " 6"; }
+  content: "\f078"; }
+
+.acc-panel {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: "2s";
+  -moz-transition: "2s";
+  -ms-transition: "2s";
+  -o-transition: "2s";
+  transition: "2s"; }
+  .acc-panel.active {
+    max-height: none; }
 
 .fn {
   font-weight: 600; }

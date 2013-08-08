@@ -15,6 +15,14 @@ a {
 		font-style: normal;
 	}
 
+
+	// Mac Shortfix
+	&:after{
+		font-family: 'FontAwesome';
+		content: " \f0da";//"\25B8";
+		text-transform: none;
+	}
+
 	&:hover, &:focus {
 		color: $gray-dark;
 		text-decoration: underline;
