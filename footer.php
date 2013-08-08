@@ -24,7 +24,7 @@
 			&copy; 2013 Korona Leuchten GmbH
 		</div>
 	</footer>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/init.js"></script>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

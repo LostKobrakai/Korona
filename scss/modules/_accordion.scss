@@ -31,16 +31,16 @@
 		&:after {
 			content:"\f078";
 		}
-
 	}
 }
 
 .acc-panel{
-	max-height: 0;
+	height: 0;
 	overflow: hidden;
-	@include vendor("transition", "2s");
+	@include vendor("transition", height 2s);
 
 	&.active{
-		max-height: none;
+		height: 238px;
+		//max-height: none;
 	}
 }

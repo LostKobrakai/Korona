@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$('.acc-handle').click( function() {
 		var trig = $(this);
 		trig.toggleClass("active");
-		trig.next('.acc-panel').toggleClass("active");
+		trig.parent().next(".acc-panel").toggleClass("active");
 	});
 });
 
