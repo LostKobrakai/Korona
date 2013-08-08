@@ -25,6 +25,7 @@
 
 			$password = "543Korona21";
 
+			//EMail
 			$msg = "Sehr geehrter Herr ".$name[count($name)-1]."\n";
 			$msg .= "\n";
 			$msg .= "Vielen Dank für ihr Verständnis. Folgend der Link zu ihrem Download.\n";
@@ -43,10 +44,12 @@
 			$headers[] = "Reply-To: benni@kobrakai.de";
 
 			mail($email, "Download von $file", $msg, implode("\r\n",$headers));
-			echo "ok";
 
 		}else{
 			die("Irgendwas fehlt oder ist leer!");
 		}
 	}
+
+header("Location: ".$_SERVER["HTTP_REFERER"]);
+
 ?>

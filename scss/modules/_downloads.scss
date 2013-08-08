@@ -1,8 +1,33 @@
-.b-downloads table{
+.b-downloads table, .downloads table{
 	@include font-size((13/16), medium);
 	border: 0;
+	padding-left: 0;
 
 	td{
 		border: 0;
+	}
+}
+
+.downloads .accordion{
+	@media all and (min-width: $bp-large){
+		.acc-panel > div{
+			position: relative;
+		}
+		h3{
+			position: absolute;
+			top: -$space*2;
+			z-index: 1000;
+		}
+	}
+}
+
+.d-form{
+	height: 0;
+	overflow: hidden;
+	@include vendor("transition", height .25s);
+
+	&.active{
+		height: auto;
+		//max-height: none;
 	}
 }

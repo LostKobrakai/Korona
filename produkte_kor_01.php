@@ -27,7 +27,7 @@
 				<div class="accordion">
 					<ul>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a class="acc-handle">Vouten</a>
 							</h3>
 							<div class="acc-panel grid">
@@ -37,7 +37,7 @@
 						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a class="acc-handle">Fassade</a>
 							</h3>
 							<div class="acc-panel grid">
@@ -47,7 +47,7 @@
 						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a class="acc-handle">Raum</a>
 							</h3>
 							<div class="acc-panel grid">
@@ -57,7 +57,7 @@
 						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a class="acc-handle">Büro</a>
 							</h3>
 							<div class="acc-panel grid">
@@ -67,7 +67,7 @@
 						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a class="acc-handle">Außen</a>
 							</h3>
 							<div class="acc-panel grid">
@@ -77,7 +77,7 @@
 						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a class="acc-handle">Farbe</a>
 							</h3>
 							<div class="acc-panel grid">

@@ -3957,6 +3957,10 @@ input[type="search"]::-webkit-search-decoration {
     background: #4c4c4c;
     color: white; }
 
+button.alt, input[type="submit"].alt {
+  background: #4c4c4c;
+  color: white; }
+
 .inline-search-results-form {
   width: 100%; }
   @media all and (min-width: 46.8em) {
@@ -4092,7 +4096,7 @@ h5.headline, h6.headline {
 
 .accordion {
   margin-bottom: 1.25rem; }
-  .accordion h3 {
+  .accordion .headline {
     line-height: 1;
     padding: 1.25rem 0 0.625rem;
     border-bottom: 1px solid #7d7d7d;
@@ -4112,13 +4116,13 @@ h5.headline, h6.headline {
 .acc-panel {
   height: 0;
   overflow: hidden;
-  -webkit-transition: height 2s;
-  -moz-transition: height 2s;
-  -ms-transition: height 2s;
-  -o-transition: height 2s;
-  transition: height 2s; }
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s; }
   .acc-panel.active {
-    height: 238px; }
+    height: auto; }
 
 .fn {
   font-weight: 600; }
@@ -4126,12 +4130,32 @@ h5.headline, h6.headline {
 .value {
   padding-right: 3px; }
 
-.b-downloads table {
+.b-downloads table, .downloads table {
   font-size: medium;
   font-size: 0.8125rem;
-  border: 0; }
-  .b-downloads table td {
+  border: 0;
+  padding-left: 0; }
+  .b-downloads table td, .downloads table td {
     border: 0; }
+
+@media all and (min-width: 50em) {
+  .downloads .accordion .acc-panel > div {
+    position: relative; }
+  .downloads .accordion h3 {
+    position: absolute;
+    top: -2.5rem;
+    z-index: 1000; } }
+
+.d-form {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.25s;
+  -moz-transition: height 0.25s;
+  -ms-transition: height 0.25s;
+  -o-transition: height 0.25s;
+  transition: height 0.25s; }
+  .d-form.active {
+    height: auto; }
 
 /*--------------------------------------- Layout ---------------------------------------*/
 /*--------------------------------------- Footer ---------------------------------------*/

@@ -1,7 +1,7 @@
 .accordion {
 	margin-bottom: $space;
 
-	h3{
+	.headline{
 		line-height: 1;
 		padding: $space 0 $space-half;
 		border-bottom: 1px solid $gray-korona;
@@ -37,10 +37,10 @@
 .acc-panel{
 	height: 0;
 	overflow: hidden;
-	@include vendor("transition", height 2s);
+	@include vendor("transition", height .5s);
 
 	&.active{
-		height: 238px;
+		height: auto;
 		//max-height: none;
 	}
 }

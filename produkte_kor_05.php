@@ -27,7 +27,7 @@
 				<div class="accordion">
 					<ul>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a href="#" class="acc-handle active">Vouten</a>
 							</h3>
 							<div class="acc-panel grid">
@@ -37,19 +37,19 @@
 						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a href="#" class="acc-handle">Raum</a>
 							</h3>
 							<div class="acc-panel">
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a href="#" class="acc-handle">Büro</a>
 							</h3>
 							<div class="acc-panel">
 							</div>
 						<li>
-							<h3>
+							<h3 class="headline">
 								<a href="#" class="acc-handle">Farbe</a>
 							</h3>
 							<div class="acc-panel">

@@ -1,25 +1,22 @@
-function include(arr, obj) {
-  return (arr.indexOf(obj) != -1);
-}
-
-function clicked(e, id){
-	var c = document.getElementById(id);
-	if(c.className == "hide"){
-		c.className = "hide open";
-		c.getElementsByTagName("h2")[0].childNodes[1].innerHTML = "&ndash;";
-	}else{
-		c.className = "hide";
-		c.getElementsByTagName("h2")[0].childNodes[1].innerHTML = "+";
-	}
-}
-
 $(document).ready(function(){
-	$('.acc-handle').click( function() {
-		var trig = $(this);
-		trig.toggleClass("active");
-		trig.parent().next(".acc-panel").toggleClass("active");
-	});
-});
 
-var a = function(d){
-}(document)
+	//Accordion Handle
+	$('.acc-handle').click( function() {
+		var trig = $(this),
+			panel = trig.parent().next(".acc-panel")
+		trig.toggleClass("active");
+		panel.toggleClass("active");
+		if(panel.hasClass("active")) panel.css("height", panel[0].scrollHeight);
+		else panel.css("height", '');
+	});
+
+	//Download Form Handle
+	$('.d-handle').click(function(){
+		var trig = $(this),
+			panel = trig.parents(".acc-panel"),
+			form = panel.find(".d-form");
+		form.toggleClass("active");
+		if(form.hasClass("active")) panel.css("height", panel[0].scrollHeight);
+		else panel.css("height", $("div", panel).first()[0].scrollHeight);
+	})
+});
