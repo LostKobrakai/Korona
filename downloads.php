@@ -44,7 +44,7 @@
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<hr>
 								<form class="download-form grid grid--wide" action="mail.php" method="post">
-									<fieldset class="grid__item one-whole bp-med--one-half">
+									<fieldset class="grid__item one-whole bp-small-2--one-half">
 										<div class="field-container">
 											<label for="d-name" class="is-vishidden">Name <abbr title="Required">*</abbr></label>
 											<input id="d-name" name="d-name" type="text" placeholder="Name *">
@@ -58,7 +58,7 @@
 											<input id="d-telephone" name="d-telephone" type="tel" placeholder="Telefon *">
 										</div>
 									</fieldset><!--
-									 --><fieldset class="grid__item one-whole bp-med--one-half">
+									 --><fieldset class="grid__item one-whole bp-small-2--one-half">
 										<div class="field-container">
 											<label for="d-company" class="is-vishidden">Firma <abbr title="Required">*</abbr></label>
 											<input id="d-company" name="d-company" type="text" placeholder="Firma *">
