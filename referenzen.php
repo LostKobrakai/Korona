@@ -8,9 +8,9 @@
 			<h2 class="headline">Innenbeleuchtung</h2>
 			<div class="grid">
 				<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
-					<h3 class="headline"><a href="#">Forum Tashkent</a></h3>
+					<h3 class="headline"><a href="referenz_tashkent.php">Forum Tashkent</a></h3>
 					<figure>
-						<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
+						<a class="noarr" href="referenz_tashkent.php"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">

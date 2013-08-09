@@ -26,33 +26,53 @@
 				<h2 class="headline">Anwendungsgebiete</h2>
 				<div class="accordion">
 					<ul>
-						<li>
+						<li class="acc-item">
 							<h3 class="headline">
-								<a href="#" class="acc-handle active">Vouten</a>
+								<a class="acc-handle">Vouten</a>
 							</h3>
 							<div class="acc-panel grid">
-								<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-								--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
-						 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
-						 <img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+								<div class="acc-info">
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
+									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
+							 		<img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+								</div>
 							</div>
-						<li>
+						<li class="acc-item">
 							<h3 class="headline">
-								<a href="#" class="acc-handle">Raum</a>
+								<a class="acc-handle">Raum</a>
 							</h3>
-							<div class="acc-panel">
+							<div class="acc-panel grid">
+								<div class="acc-info">
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
+									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
+							 		<img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+								</div>
 							</div>
-						<li>
+						<li class="acc-item">
 							<h3 class="headline">
-								<a href="#" class="acc-handle">Büro</a>
+								<a class="acc-handle">Büro</a>
 							</h3>
-							<div class="acc-panel">
+							<div class="acc-panel grid">
+								<div class="acc-info">
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
+									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
+							 		<img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+								</div>
 							</div>
-						<li>
+						<li class="acc-item">
 							<h3 class="headline">
-								<a href="#" class="acc-handle">Farbe</a>
+								<a class="acc-handle">Farbe</a>
 							</h3>
-							<div class="acc-panel">
+							<div class="acc-panel grid">
+								<div class="acc-info">
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
+									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
+							 		<img src="images/produkte_kor_01/vouten.jpg" alt="Image"></div>
+								</div>
 							</div>
 					</ul>
 				</div>
@@ -123,21 +143,21 @@
 						<h3 class="headline">
 							<a href="#" class="inner">Forum Tashkent</a>
 						</h3>
-						<figure><img src="images/produkte_kor_01/09_forum_tashkent.jpg" alt="Image">
+						<figure><img src="images/produkte_kor_05/projekt_tashkent.jpg" alt="Image">
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
-							<a href="#" class="inner">ADAC Sendlinger Tor</a>
+							<a href="#" class="inner">IOF</a>
 						</h3>
-						<figure><img src="images/produkte_kor_01/10_ADAC.jpg" alt="Image">
+						<figure><img src="images/produkte_kor_05/projekt_iof.png" alt="Image">
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
-							<a href="#" class="inner">Medienfabrik</a>
+							<a href="#" class="inner">Rathaus Schorndorf</a>
 						</h3>
-						<figure><img src="images/produkte_kor_01/09_medienfabrik.jpg" alt="Image">
+						<figure><img src="images/produkte_kor_05/projekt_schorndorf.jpg" alt="Image">
 						</figure>
 					</div>
 				</div>

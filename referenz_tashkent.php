@@ -11,8 +11,8 @@
 			<div class="grid__item">
 				<div class="grid">
 					<div class="p-images grid__item one-whole bp-large--two-thirds">
-						<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
-						<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
+						<img src="images/referenz_tashkent/theater.png" alt="">
+						<img src="images/referenz_tashkent/forum.png" alt="">
 					</div><!--
 					 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
 						<h2 class="headline">Beschreibung</h2>
@@ -28,11 +28,10 @@
 				</div>
 			</div>
 			<div class="p-images grid__item one-whole bp-large--two-thirds">
-				<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
-				<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
-				<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
-				<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
-				<img src="images/produkte_kor_01/kor01_produkt_gross.jpg" alt="">
+				<img src="images/referenz_tashkent/ringleuchte.png" alt="">
+				<img src="images/referenz_tashkent/gang.png" alt="">
+				<img src="images/referenz_tashkent/gang_02.png" alt="">
+				<img src="images/referenz_tashkent/theater_02.png" alt="">
 			</div>
 			<div class="block b-referenzprodukte grid__item one-whole">
 				<h2 class="headline">
