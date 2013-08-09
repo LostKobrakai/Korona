@@ -4159,6 +4159,9 @@ h5.headline, h6.headline {
   .d-form.active {
     height: auto; }
 
+.d-form > div {
+  overflow: hidden; }
+
 /*--------------------------------------- Layout ---------------------------------------*/
 /*--------------------------------------- Footer ---------------------------------------*/
 @media all and (max-width: 29.75em) {
