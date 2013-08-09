@@ -12,7 +12,7 @@
 					<img src="images/404.jpg" alt="Bild aus der Serie Spongebob">
 				</div><!--
 				 --><div class="grid__item one-whole bp-med--one-half">
-						<p>Leider ist die Seite, die sie aufgerufen haben, nichtmehr vorhanden. Vielleicht finden sie über unsere Suche zu der gewünschten Seite.</p>
+					<h3 class="headline">Suche</h3>
 					<form action="#" method="post" class="inline-form search-form">
 					    <fieldset class="bp-med--three-quarters">
 						    <legend class="is-vishidden">Search</legend>
@@ -22,29 +22,20 @@
 					    </fieldset>
 					</form>
 					<div class="grid">
+						<div class="grid__item">
+							<h3 class="headline">Schnelleinstieg</h3>
+						</div>
 						<div class="block grid__item one-whole bp-med--one-half">
-							<h3 class="headline"><a href="produkte_kor_01.php">Produkte</a></h3>
-							<figure>
-								<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor01_produkt_uebersicht.jpg" alt=""></a>
-							</figure>
+							<h4 class="headline"><a href="produkte_kor_01.php">Produkte</a></h4>
 						</div><!--
 						 --><div class="block grid__item one-whole bp-med--one-half">
-							<h3 class="headline"><a href="#">Referenzen</a></h3>
-							<figure>
-								<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor02_produkt_uebersicht.jpg" alt=""></a>
-							</figure>
+							<h4 class="headline"><a href="#">Referenzen</a></h4>
 						</div><!--
 						 --><div class="block grid__item one-whole bp-med--one-half">
-							<h3 class="headline"><a href="#">Unternehmen</a></h3>
-							<figure>
-								<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor03_produkt_uebersicht.jpg" alt=""></a>
-							</figure>
+							<h4 class="headline"><a href="#">Unternehmen</a></h4>
 						</div><!--
 						 --><div class="block grid__item one-whole bp-med--one-half">
-							<h3 class="headline"><a href="#">Kontakt</a></h3>
-							<figure>
-								<a class="noarr" href="#"><img src="images/produkte_uebersicht/kor04_produkt_uebersicht.jpg" alt=""></a>
-							</figure>
+							<h4 class="headline"><a href="#">Kontakt</a></h4>
 						</div>
 					</div>
 				</div>
