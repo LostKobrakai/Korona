@@ -32,7 +32,7 @@
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
-					<h3 class="headline"><a href="#">kor_#02</a></h3>
+					<h3 class="headline"><a href="#">St. Stephan</a></h3>
 					<figure>
 						<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/kirche_ka.png" alt=""></a>
 					</figure>
@@ -80,7 +80,7 @@
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-					<h3 class="headline"><a href="#">Brücke Heidelberg</a></h3>
+					<h3 class="headline"><a href="#">Alte Brücke Heidelberg</a></h3>
 					<figure>
 						<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/aussenbeleuchtung/brueckeheidelberg.png" alt=""></a>
 					</figure>
