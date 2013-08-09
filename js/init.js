@@ -97,4 +97,44 @@ $(document).ready(function(){
 
 
 	console.log(accordion);
+
+	//Download Weiterleitung
+	//Mark
+	function markupdate(){
+		var mark = $("mark.download > span");
+		switch (mark.html().length){
+			case 1:
+				mark.html("..");
+				break;
+			case 2:
+				mark.html("...");
+				break;
+			case 3:
+				mark.html(".");
+				break;
+		}
+		console.log(mark.html());
+		setTimeout(markupdate,500);
+	}
+
+	$(".d-refer").click(function(e){
+		e.preventDefault();
+		markupdate();
+		$(this).parents("table").find(".is-vishidden").last().removeClass("is-vishidden");
+		var url = this.href
+		setTimeout(function(){
+			window.location=url;
+		}, 2000);
+	});
+
+	//Hashverarbeitung
+	var cachebody = $('html, body');
+	if(window.location.hash == "#kor01data"){
+		accordion.items[0].toggleActive();
+		accordion.items[0].download.toggleActive();
+		cachebody.animate({
+         scrollTop: $(accordion.items[0].item).offset().top
+     }, 1000);
+	}
+
 });

@@ -122,19 +122,22 @@
 					<table>
 						<tr>
 							<td>Infobrochüre:</td>
-							<td><a href="#">PDF</a></td>
+							<td><a class="noarr" href="#">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Sicherheitshinweise:</td>
-							<td><a href="#">PDF</a></td>
+							<td><a class="noarr" href="#">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Montageanleitung:</td>
-							<td><a href="#">PDF</a></td>
+							<td><a class="noarr" href="#">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Lichtberechnung:</td>
-							<td><a href="#">EXL</a></td>
+							<td><a class="d-refer" href="downloads.php#kor01data">EXL</a></td>
+						</tr>
+						<tr>
+							<td class="is-vishidden" colspan="2"><mark class="download">Sie werden zum Download weitergeleitet<span>.</span></mark></td>
 						</tr>
 					</table>
 				</div>
