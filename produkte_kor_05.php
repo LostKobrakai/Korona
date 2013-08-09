@@ -117,7 +117,7 @@
 			</div><!--
 			 --><div class="block b-kontakt grid__item one-whole bp-med--one-third">
 				<h2 class="headline">
-					<a href="#" class="inner">Kontakt</a>
+					<a href="kontakt.php" class="inner">Kontakt</a>
 				</h2>
 				<div class="b-text">
 					<div class="vcard">
