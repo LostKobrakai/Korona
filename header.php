@@ -8,6 +8,7 @@
 	<title>Korona</title>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="images/favicon_16.png" type="image/png">
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -21,7 +22,7 @@
 				<li><a href="produkte.php">Produkte</a>
 				<li><a href="referenzen.php">Referenzen</a>
 				<li><a href="unternehmen.php">Unternehmen</a>
-				<li><a href="">Kontakt</a>
+				<li><a href="kontakt.php">Kontakt</a>
 			</ul>
 		</nav>
 		<div class="teaser<?php echo $teaserclass; ?>">

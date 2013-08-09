@@ -5,7 +5,7 @@
 				<li><a href="index.php">Startseite</a></li>
 				<li><a href="#">Presse</a></li>
 				<li><a href="downloads.php">Downloads</a></li>
-				<li><a href="#">Kontakt</a></li>
+				<li><a href="kontakt.php">Kontakt</a></li>
 				<li><a href="#">AGB</a></li>
 				<li><a href="#">Impressum</a></li>
 			</ul>

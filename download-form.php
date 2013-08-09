@@ -1,4 +1,5 @@
 								<hr>
+								<p>Wir benötigen für diesen Download einige Ihrer Daten. Diese werden natürlich vertraulich behandelt. Genauer Informationen finden Sie in unseren <a href="">Datenschutzrichtlinien</a></p>
 								<form class="download-form grid grid--wide" action="mail.php" method="post">
 									<fieldset class="grid__item one-whole bp-small-2--one-half">
 										<div class="field-container">
