@@ -6,7 +6,7 @@
 ?>
 	<div class="content grid">
 		<div class="block grid__item">
-			<h2 class="headline">Seite nicht gefunden?</h2>
+			<h2 class="headline">Seite nicht gefunden</h2>
 			<div class="grid">
 				<div class="grid__item one-whole bp-med--one-half">
 					<img src="images/404.jpg" class="notrans" alt="Bild aus der Serie Spongebob">
