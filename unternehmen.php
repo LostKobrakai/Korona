@@ -18,7 +18,7 @@
 		 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
 			<h3 class="headline"><a href="#">Kompetenz</a></h3>
 			<figure>
-				<a class="noarr" href="#"><img src="images/unternehmen/kompetenz.png" alt=""></a>
+				<a class="noarr" href="#"><img src="images/unternehmen/kompetenzen_03.png" alt=""></a>
 			</figure>
 		</div><!--
 		 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third systemprodukt">
