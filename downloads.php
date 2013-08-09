@@ -12,7 +12,7 @@
 						<a class="acc-handle" id="kor01">kor_#01</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -42,7 +42,7 @@
 						<a class="acc-handle" id="kor02">kor_#02</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -71,7 +71,7 @@
 						<a class="acc-handle" id="kor03">kor_#03</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -100,7 +100,7 @@
 						<a class="acc-handle" id="kor04">kor_#04</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -129,7 +129,7 @@
 						<a class="acc-handle" id="kor05">kor_#05</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -158,7 +158,7 @@
 						<a class="acc-handle" id="kor06">kor_#06</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -187,7 +187,7 @@
 						<a class="acc-handle" id="kormagn">kor_magnLEDspot</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">
@@ -216,7 +216,7 @@
 						<a class="acc-handle" id="tailorlight">TailorLIGHT&reg;</a>
 					</h2>
 					<div class="acc-panel grid">
-						<div class="d-info">
+						<div class="acc-info">
 							<div class="grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 								<h3>Downloads</h3>
 								<div class="b-text">

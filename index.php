@@ -2,6 +2,7 @@
 	$h1 = "Geschäftsführung";
 	$hideh1 = true;
 	$hidebreadcrumb = true;
+	$teaserclass=" big";
 	$breadcrumb = array("Home" => "index.php");
 	include("header.php");
 ?>

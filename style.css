@@ -4194,8 +4194,11 @@ h5.headline, h6.headline {
 
 .teaser {
   position: relative;
-  height: 300px;
+  height: 200px;
   overflow: hidden; }
+
+.teaser.big {
+  height: 300px; }
 
 .teaser h1 {
   position: absolute;

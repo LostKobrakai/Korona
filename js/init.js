@@ -25,12 +25,12 @@ $(document).ready(function(){
 		this.download = false;
 
 		this.getItems = function(handle, formular){
-			this.download = new DownloadItem(handle, formular, this);
+			this.download = (this.item.find(handle).length > 0) ? new DownloadItem(handle, formular, this) : false;
 		}
 
 		this.toggleActive = function(){
 			if(this.active){
-				if(this.download.active) this.download.toggleActive();
+				if(this.download && this.download.active) this.download.toggleActive();
 				this.panel.removeClass("active");
 				this.panel.css("height", "");
 			}else{
@@ -43,7 +43,7 @@ $(document).ready(function(){
 		};
 
 		this.getPanelHeight = function(){
-			return this.panel.find(".d-info").height();
+			return this.panel.find(".acc-info").height();
 		}
 
 		this.getFormHeight = function(){

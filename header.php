@@ -24,7 +24,7 @@
 				<li><a href="">Kontakt</a>
 			</ul>
 		</nav>
-		<div class="teaser">
+		<div class="teaser<?php echo $teaserclass; ?>">
 			<?php if(!isset($teaser)) : ?>
 			<img src="images/startseite/startseite_head.jpg" alt="">
 			<?php else : ?>
