@@ -17,6 +17,9 @@
 
 	img{
 		opacity: .8;
+		&.notrans{
+			opacity: 1;
+		}
 		&:hover{
 			opacity: 1;
 		}

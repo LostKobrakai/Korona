@@ -9,7 +9,7 @@
 			<h2 class="headline">Seite nicht gefunden?</h2>
 			<div class="grid">
 				<div class="grid__item one-whole bp-med--one-half">
-					<img src="images/404.jpg" alt="Bild aus der Serie Spongebob">
+					<img src="images/404.jpg" class="notrans" alt="Bild aus der Serie Spongebob">
 				</div><!--
 				 --><div class="grid__item one-whole bp-med--one-half">
 					<h3 class="headline">Suche</h3>

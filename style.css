@@ -4073,6 +4073,8 @@ button.alt, input[type="submit"].alt {
     margin-bottom: 0; }
   .block img {
     opacity: .8; }
+    .block img.notrans {
+      opacity: 1; }
     .block img:hover {
       opacity: 1; }
 
