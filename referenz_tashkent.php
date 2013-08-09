@@ -59,60 +59,52 @@
 					<a href="#" class="inner">Alle Innenbeleuchtungen</a>
 				</h2>
 				<div class="grid">
-					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="produkte_kor_01.php">Digel</a></h3>
+					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="referenz_tashkent.php">Forum Tashkent</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-						<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="referenz_tashkent.php"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="#">IOF</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">Playmobil Funpark</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/playmobil_funpark.png" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="#">Lehmbachhaus</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">Rathaus Schorndorf</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/rathaus_schorndorf.jpg" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="#">kor_#04</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">Bloom Restaurant</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/bloom_restaurant.png" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="produkte_kor_01.php">kor_#05</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">St. Stephan</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/kirche_ka.png" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="#">kor_#06</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">Kobelkirche Westheim</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/kobelkirche_westheim.png" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="#">kor_magnLEDspot</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">Akka Kirche</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/akka_kirche.jpg" alt=""></a>
 						</figure>
 					</div><!--
-					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
-						<h3 class="headline"><a href="#">TailorLIGHT&reg;</a></h3>
+					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
+						<h3 class="headline"><a href="#">Loacker Kaffee</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenz_tashkent/rathaus_schorndorf.jpg" alt=""></a>
-							<figcaption>LED Profil, Stichpunkt, Produktbeschreibung, Stecker, Strombedingungen</figcaption>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/loacker_kaffee.png" alt=""></a>
 						</figure>
 					</div>
 				</div>
