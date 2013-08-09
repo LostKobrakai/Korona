@@ -18,5 +18,12 @@ $(document).ready(function(){
 		form.toggleClass("active");
 		if(form.hasClass("active")) panel.css("height", panel[0].scrollHeight);
 		else panel.css("height", $("div", panel).first()[0].scrollHeight);
-	})
+	});
+
+	//Handle Window change
+	$(window).resize(function(){
+		$(".acc-panel.active").each(function(){
+			$(this).css("height", $(this)[0].scrollHeight);
+		});
+	});
 });
