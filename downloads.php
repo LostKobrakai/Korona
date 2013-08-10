@@ -36,7 +36,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kor01.pdf";
+								<?php $datei = "kor01";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -70,7 +70,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kor02.pdf";
+								<?php $datei = "kor02";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -104,7 +104,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kor03.pdf";
+								<?php $datei = "kor03";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -138,7 +138,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kor04.pdf";
+								<?php $datei = "kor04";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -172,7 +172,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kor05.pdf";
+								<?php $datei = "kor05";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -206,7 +206,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kor06.pdf";
+								<?php $datei = "kor06";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -240,7 +240,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "kormagn.pdf";
+								<?php $datei = "kormagn";
 											include("download-form.php"); ?>
 							</div>
 						</div>
@@ -274,7 +274,7 @@
 						</div>
 						<div class="d-form grid__item one-whole bp-large--two-thirds push--bp-large--one-third">
 							<div>
-								<?php $datei = "tailorlight.pdf";
+								<?php $datei = "tailorlight";
 											include("download-form.php"); ?>
 							</div>
 						</div>

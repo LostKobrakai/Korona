@@ -1,4 +1,13 @@
 $(document).ready(function(){
+		$.fn.extend({
+			cachebody: $('html, body'),
+			scrollTo: function(){
+				cachebody.animate({
+      		scrollTop: this.offset().top
+     		}, 1000);
+			}
+		});
+
 		function Accordion(selector){
 		this.accordion = $(selector);
 		this.items = [];
@@ -74,9 +83,9 @@ $(document).ready(function(){
 				this.parentObj.panel.css("height", h);
 			}else{
 				var h = (this.parentObj.getPanelHeight() + this.parentObj.getFormHeight());
-				console.log(this.parentObj.getFormHeight())
 				this.formular.addClass("active");
 				this.parentObj.panel.css("height", h);
+				this.formular.scrollTo();
 			}
 			this.active = this.active ? false : true;
 		};
@@ -129,12 +138,14 @@ $(document).ready(function(){
 
 	//Hashverarbeitung
 	var cachebody = $('html, body');
-	if(window.location.hash == "#kor01data"){
-		accordion.items[0].toggleActive();
-		accordion.items[0].download.toggleActive();
-		cachebody.animate({
-         scrollTop: $(accordion.items[0].item).offset().top
-     }, 1000);
+	switch(window.location.hash){
+		case "#kor01data":
+			accordion.items[0].toggleActive();
+			accordion.items[0].download.toggleActive();
+			accordion.items[0].download.formular.scrollTo();
+			break;
+		default:
+			$("#"+window.location.hash.substring(2)).scrollTo();
 	}
 
 });

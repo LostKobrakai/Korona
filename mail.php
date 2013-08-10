@@ -1,7 +1,38 @@
 <?php
+
+function email($email, $name, $file, $password){
+	$name = explode(" ", $name);
+
+
+
+	//EMail
+	$msg = "Sehr geehrter Herr ".$name[count($name)-1]."\n";
+	$msg .= "\n";
+	$msg .= "Vielen Dank für ihr Verständnis. Folgend die geschützen Downloadlinks zum Produkt $file.\n";
+	$msg .= "\n";
+	$msg .= "EXL: http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password&$file=exl\n";
+	$msg .= "ECF: http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password&$file=ecf\n";
+	$msg .= "EIT: http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password&$file=eit\n";
+	$msg .= "\n";
+	$msg .= "Falls sie zu einem späteren Zeitpunkt noch geschützte Dateien zu einem anderen Produkt herunterladen möchen, dann können sie folgendes Passwort benutzen.\n";
+	$msg .= "\n";
+	$msg .= "Passwort: $password\n";
+	$msg .= "\n";
+	$msg .= "Mit freundlichen Grüßen\n";
+	$msg .= "Ihre Korona Serveranlage\n";
+
+	$headers   = array();
+	$headers[] = "MIME-Version: 1.0";
+	$headers[] = "Content-type: text/plain; charset=utf-8";//charset=iso-8859-1";
+	$headers[] = "From: benni@kobrakai.de";
+	$headers[] = "Reply-To: benni@kobrakai.de";
+
+	mail($email, "Download von $file", $msg, implode("\r\n",$headers));
+	return true;
+}
 //Sanitise and Validate
   if(isset($_POST['d-submit'])){
-		if($_POST['d-name'] != "" && $_POST['d-email'] != "" && $_POST['d-telephone'] != "" && $_POST['d-company'] != "" && $_POST['d-street'] != "" && $_POST['d-city'] != "" && $_POST['d-file'] != ""){
+		if($_POST['d-name'] != "" && $_POST['d-email'] != "" && $_POST['d-telephone'] != "" && $_POST['d-company'] != "" && $_POST['d-file'] != ""){
 
 			//Text
 			$name = filter_var($_POST['d-name'], FILTER_SANITIZE_STRING);
@@ -17,39 +48,27 @@
 			//Checkbox
 			$department = 0;
 
-			if($name == "" || $street == "" || $company == "" || $city == "" || $file == "") die("Text nicht akzeptiert");
+			if($name == "" || $company == "" || $file == "") die("Text nicht akzeptiert");
 			if(!filter_var($email, FILTER_VALIDATE_EMAIL)) die("Email");
 			if($telephone == "") die("telephone");
-
-			$name = explode(" ", $name);
-
 			$password = "543Korona21";
 
-			//EMail
-			$msg = "Sehr geehrter Herr ".$name[count($name)-1]."\n";
-			$msg .= "\n";
-			$msg .= "Vielen Dank für ihr Verständnis. Folgend der Link zu ihrem Download.\n";
-			$msg .= "http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password\n";
-			$msg .= "\n";
-			$msg .= "Falls sie zu einem späteren Zeitpunkt noch weiter geschützte Dateien herunterladen möchen, dann können sie folgendes Passwort benutzen.\n";
-			$msg .= "Passwort: $password\n";
-			$msg .= "\n";
-			$msg .= "Mit freundlichen Grüßen\n";
-			$msg .= "Ihre Korona Serveranlage\n";
 
-			$headers   = array();
-			$headers[] = "MIME-Version: 1.0";
-			$headers[] = "Content-type: text/plain; charset=utf-8";//charset=iso-8859-1";
-			$headers[] = "From: benni@kobrakai.de";
-			$headers[] = "Reply-To: benni@kobrakai.de";
+			if(email($email, $name, $file, $password)) header("Location: ".$_SERVER["HTTP_REFERER"]);
 
-			mail($email, "Download von $file", $msg, implode("\r\n",$headers));
-
+		}elseif($_POST['d-password'] != "" && $_POST['d-file'] != ""){
+			$password = filter_var($_POST['d-password'], FILTER_SANITIZE_STRING);
+			$file = filter_var($_POST['d-file'], FILTER_SANITIZE_STRING);
+			if($password === "543Korona21"){
+				$name = "Benjamin Milde";
+				$email = "benni@kobrakai.de";
+				if(email($email, $name, $file, $password)) header("Location: ".$_SERVER["HTTP_REFERER"]);
+			}
 		}else{
 			die("Irgendwas fehlt oder ist leer!");
 		}
 	}
 
-header("Location: ".$_SERVER["HTTP_REFERER"]);
+//header("Location: ".$_SERVER["HTTP_REFERER"]);
 
 ?>
