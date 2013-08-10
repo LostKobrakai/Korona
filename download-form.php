@@ -39,12 +39,12 @@
 								   --><label for="checkbox5" class="grid__item one-half bp-med--one-third"><input id="checkbox5" name="checkbox[]" type="checkbox"> Bauherr</label><!--
 								   --><label for="checkbox6" class="grid__item one-half bp-med--one-third"><input id="checkbox6" name="checkbox[]" type="checkbox"> Sonstiger</label>
 										</div>
-										<div class="field-container grid grid--wide">
+										<div class="grid grid--wide">
 											<input id="d-file" name="d-file" type="hidden" value="<?php echo $datei; ?>">
-											<div class="grid__item one-whole bp-small-2--one-half">
+											<div class="field-container grid__item one-whole bp-small-2--one-half">
 												<input id="d-submit" name="d-submit" type="submit" value="Absenden" />
 											</div><!--
-											 --><div class="d-handle d-handle--close grid__item one-whole bp-small-2--one-half">
+											 --><div class="field-container d-handle d-handle--close grid__item one-whole bp-small-2--one-half">
 											 	<button type="button" class="alt align-right">Formular Schließen</button>
 											</div>
 										</div>
