@@ -144,20 +144,14 @@
       content: normal;
     }
     &:before{
-      font-family: webdings;
-      content: " 4 ";
+      font-family: "fontello";
+      content: "\e804";
       speak: none;
+      padding: 0 4px 0 3px;
       font-weight: normal;
+      text-transform: none;
       -webkit-font-smoothing: antialiased;
       font-style: normal;
-    }
-
-    // Mac Shortfix
-    &:before{
-      font-family: 'FontAwesome';
-      content: "\f0da";//"\25B8";
-      text-transform: none;
-      padding: 0 3px;
     }
   }
 }

@@ -27,11 +27,10 @@ header{
 }
 
 .teaser{
-	@extend .grid__item;
-	@extend .one-whole;
 	position: relative;
 	height: 200px;
 	overflow: hidden;
+	text-align:center;
 }
 
 .teaser.big{
@@ -46,7 +45,10 @@ header{
 }
 
 .teaser img {
-	width: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 0;
 	max-width: none;
 	min-height: 100%;
 	text-align: center;

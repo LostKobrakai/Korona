@@ -25,13 +25,15 @@
 				<li><a href="kontakt.php">Kontakt</a>
 			</ul>
 		</nav>
-		<div class="teaser<?php echo $teaserclass; ?>">
-			<?php if(!isset($teaser)) : ?>
-			<img src="images/startseite/startseite_head.jpg" alt="">
-			<?php else : ?>
-			<img src="<?php echo $teaser; ?>" alt="">
-			<?php endif; ?>
-			<h1 <?php if($hideh1) echo "class='is-vishidden'"; ?>><?php echo $h1; ?></h1>
+		<div class="grid__item one-whole">
+			<div class="teaser<?php echo $teaserclass; ?>">
+				<?php if(!isset($teaser)) : ?>
+				<img src="images/startseite/startseite_head.jpg" alt="">
+				<?php else : ?>
+				<img src="<?php echo $teaser; ?>" alt="">
+				<?php endif; ?>
+				<h1 <?php if($hideh1) echo "class='is-vishidden'"; ?>><?php echo $h1; ?></h1>
+			</div>
 		</div>
 		<ul class="nav breadcrumb <?php if($hidebreadcrumb) echo "is-vishidden"; ?>">
 			<?php

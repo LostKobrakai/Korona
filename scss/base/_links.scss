@@ -5,22 +5,18 @@ a {
 	outline: 0;
 
 	&:after{
-		font-size: .8em;
-		font-family: webdings;
-		content: "4";
+		display: inline-block;
+		font-size: 1em;
+		font-family: 'fontello';
+		content: " \e804";//"\25B8";
+		text-transform: none;
+		text-decoration: none;
+		padding-left: 2px;
 		speak: none;
 		font-weight: normal;
 		line-height: 1;
 		-webkit-font-smoothing: antialiased;
 		font-style: normal;
-	}
-
-
-	// Mac Shortfix
-	&:after{
-		font-family: 'FontAwesome';
-		content: " \f0da";//"\25B8";
-		text-transform: none;
 	}
 
 	&:hover, &:focus {

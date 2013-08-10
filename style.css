@@ -158,7 +158,7 @@ header, footer, nav, section, article, figure {
  * 4. Full-width unless told to behave otherwise.
  * 5. Required to combine fluid widths and fixed gutters.
  */
-.grid__item, .footernav, .search, .copyright, .logo, .mainnav, .teaser, .breadcrumb {
+.grid__item, .footernav, .search, .copyright, .logo, .mainnav, .breadcrumb {
   display: inline-block;
   /* [1] */
   padding-left: 20px;
@@ -181,7 +181,7 @@ header, footer, nav, section, article, figure {
 .grid--rev {
   direction: rtl;
   text-align: left; }
-  .grid--rev > .grid__item, .grid--rev > .footernav, .grid--rev > .search, .grid--rev > .copyright, .grid--rev > .logo, .grid--rev > .mainnav, .grid--rev > .teaser, .grid--rev > .breadcrumb {
+  .grid--rev > .grid__item, .grid--rev > .footernav, .grid--rev > .search, .grid--rev > .copyright, .grid--rev > .logo, .grid--rev > .mainnav, .grid--rev > .breadcrumb {
     direction: ltr;
     text-align: left; }
 
@@ -191,7 +191,7 @@ header, footer, nav, section, article, figure {
  */
 .grid--full {
   margin-left: 0; }
-  .grid--full > .grid__item, .grid--full > .footernav, .grid--full > .search, .grid--full > .copyright, .grid--full > .logo, .grid--full > .mainnav, .grid--full > .teaser, .grid--full > .breadcrumb {
+  .grid--full > .grid__item, .grid--full > .footernav, .grid--full > .search, .grid--full > .copyright, .grid--full > .logo, .grid--full > .mainnav, .grid--full > .breadcrumb {
     padding-left: 0; }
 
 /**
@@ -199,7 +199,7 @@ header, footer, nav, section, article, figure {
  */
 .grid--right {
   text-align: right; }
-  .grid--right > .grid__item, .grid--right > .footernav, .grid--right > .search, .grid--right > .copyright, .grid--right > .logo, .grid--right > .mainnav, .grid--right > .teaser, .grid--right > .breadcrumb {
+  .grid--right > .grid__item, .grid--right > .footernav, .grid--right > .search, .grid--right > .copyright, .grid--right > .logo, .grid--right > .mainnav, .grid--right > .breadcrumb {
     text-align: left; }
 
 /**
@@ -208,17 +208,17 @@ header, footer, nav, section, article, figure {
  */
 .grid--center {
   text-align: center; }
-  .grid--center > .grid__item, .grid--center > .footernav, .grid--center > .search, .grid--center > .copyright, .grid--center > .logo, .grid--center > .mainnav, .grid--center > .teaser, .grid--center > .breadcrumb {
+  .grid--center > .grid__item, .grid--center > .footernav, .grid--center > .search, .grid--center > .copyright, .grid--center > .logo, .grid--center > .mainnav, .grid--center > .breadcrumb {
     text-align: left; }
 
 /**
  * Align grid cells vertically (`.grid--middle` or `.grid--bottom`). Extends
  * `.grid`.
  */
-.grid--middle > .grid__item, .grid--middle > .footernav, .grid--middle > .search, .grid--middle > .copyright, .grid--middle > .logo, .grid--middle > .mainnav, .grid--middle > .teaser, .grid--middle > .breadcrumb {
+.grid--middle > .grid__item, .grid--middle > .footernav, .grid--middle > .search, .grid--middle > .copyright, .grid--middle > .logo, .grid--middle > .mainnav, .grid--middle > .breadcrumb {
   vertical-align: middle; }
 
-.grid--bottom > .grid__item, .grid--bottom > .footernav, .grid--bottom > .search, .grid--bottom > .copyright, .grid--bottom > .logo, .grid--bottom > .mainnav, .grid--bottom > .teaser, .grid--bottom > .breadcrumb {
+.grid--bottom > .grid__item, .grid--bottom > .footernav, .grid--bottom > .search, .grid--bottom > .copyright, .grid--bottom > .logo, .grid--bottom > .mainnav, .grid--bottom > .breadcrumb {
   vertical-align: bottom; }
 
 /**
@@ -226,7 +226,7 @@ header, footer, nav, section, article, figure {
  */
 .grid--narrow {
   margin-left: -10px; }
-  .grid--narrow > .grid__item, .grid--narrow > .footernav, .grid--narrow > .search, .grid--narrow > .copyright, .grid--narrow > .logo, .grid--narrow > .mainnav, .grid--narrow > .teaser, .grid--narrow > .breadcrumb {
+  .grid--narrow > .grid__item, .grid--narrow > .footernav, .grid--narrow > .search, .grid--narrow > .copyright, .grid--narrow > .logo, .grid--narrow > .mainnav, .grid--narrow > .breadcrumb {
     padding-left: 10px; }
 
 /**
@@ -234,7 +234,7 @@ header, footer, nav, section, article, figure {
  */
 .grid--wide {
   margin-left: -40px; }
-  .grid--wide > .grid__item, .grid--wide > .footernav, .grid--wide > .search, .grid--wide > .copyright, .grid--wide > .logo, .grid--wide > .mainnav, .grid--wide > .teaser, .grid--wide > .breadcrumb {
+  .grid--wide > .grid__item, .grid--wide > .footernav, .grid--wide > .search, .grid--wide > .copyright, .grid--wide > .logo, .grid--wide > .mainnav, .grid--wide > .breadcrumb {
     padding-left: 40px; }
 
 /*------------------------------------*\
@@ -249,7 +249,7 @@ header, footer, nav, section, article, figure {
 /**
  * Whole
  */
-.one-whole, .footernav, .search, .copyright, .logo, .mainnav, .teaser, .breadcrumb {
+.one-whole, .footernav, .search, .copyright, .logo, .mainnav, .breadcrumb {
   width: 100%; }
 
 /**
@@ -3551,9 +3551,9 @@ header, footer, nav, section, article, figure {
 */
 /* Icon Font */
 @font-face {
-  font-family: 'entypo';
-  src: url("fonts/entypo.eot");
-  src: url("fonts/entypo.eot?#iefix") format("embedded-opentype"), url("fonts/entypo.woff") format("woff"), url("fonts/entypo.ttf") format("truetype"), url("fonts/entypo.svg#entypo") format("svg");
+  font-family: 'fontello';
+  src: url("fonts/fontello.eot");
+  src: url("fonts/fontello.eot?#iefix") format("embedded-opentype"), url("fonts/fontello.woff") format("woff"), url("fonts/fontello.ttf") format("truetype"), url("fonts/fontello.svg#fontello") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -3842,17 +3842,14 @@ td {
     .breadcrumb li:first-child:before {
       content: normal; }
     .breadcrumb li:before {
-      font-family: webdings;
-      content: " 4 ";
+      font-family: "fontello";
+      content: "\e804";
       speak: none;
+      padding: 0 4px 0 3px;
       font-weight: normal;
+      text-transform: none;
       -webkit-font-smoothing: antialiased;
       font-style: normal; }
-    .breadcrumb li:before {
-      font-family: 'FontAwesome';
-      content: "\f0da";
-      text-transform: none;
-      padding: 0 3px; }
 
 /* Links */
 a {
@@ -3860,18 +3857,18 @@ a {
   text-decoration: none;
   outline: 0; }
   a:after {
-    font-size: .8em;
-    font-family: webdings;
-    content: "4";
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'fontello';
+    content: " \e804";
+    text-transform: none;
+    text-decoration: none;
+    padding-left: 2px;
     speak: none;
     font-weight: normal;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     font-style: normal; }
-  a:after {
-    font-family: 'FontAwesome';
-    content: " \f0da";
-    text-transform: none; }
   a:hover, a:focus {
     color: #232323;
     text-decoration: underline; }
@@ -4104,16 +4101,18 @@ h5.headline, h6.headline {
     border-bottom: 1px solid #7d7d7d;
     margin-bottom: 0.625rem; }
 
-.acc-handle:after {
-  content: " 5";
-  font-size: 1.2em; }
-.acc-handle:after {
-  font-family: 'FontAwesome';
-  content: "\f077";
+.acc-handle:before {
+  display: inline-block;
+  font-family: 'fontello';
+  content: "\e801";
   text-transform: none;
-  padding-left: 2px; }
-.acc-handle.active:after {
-  content: "\f078"; }
+  text-decoration: none;
+  padding: 0 5px 0 3px; }
+.acc-handle:after {
+  content: normal; }
+.acc-handle.active:before {
+  content: "\f078";
+  content: "\e800"; }
 
 .acc-panel {
   height: 0;
@@ -4195,7 +4194,8 @@ h5.headline, h6.headline {
 .teaser {
   position: relative;
   height: 200px;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
 
 .teaser.big {
   height: 300px; }
@@ -4207,7 +4207,10 @@ h5.headline, h6.headline {
   color: white; }
 
 .teaser img {
-  width: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  top: 0;
   max-width: none;
   min-height: 100%;
   text-align: center; }

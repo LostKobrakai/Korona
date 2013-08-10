@@ -10,17 +10,17 @@
 }
 
 .acc-handle {
-	&:after {
-		content:" 5";
-		font-size: 1.2em;
+	&:before{
+		display: inline-block;
+		font-family: 'fontello';
+		content: "\e801";//"\25B8";
+		text-transform: none;
+		text-decoration: none;
+		padding: 0 5px 0 3px;
 	}
 
-	// Mac Shortfix
 	&:after{
-		font-family: 'FontAwesome';
-		content: "\f077";//"\25B8";
-		text-transform: none;
-		padding-left: 2px;
+		content: normal;
 	}
 
 	&:hover {
@@ -28,8 +28,9 @@
 	}
 
 	&.active {
-		&:after {
+		&:before {
 			content:"\f078";
+			content:"\e800";
 		}
 	}
 }
