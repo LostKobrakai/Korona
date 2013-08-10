@@ -1,9 +1,8 @@
 <?php
 	$h1 = "Geschäftsführung";
 	$hideh1 = true;
-	$hidebreadcrumb = true;
 	$teaserclass=" big";
-	$breadcrumb = array("Home" => "index.php");
+	$breadcrumb = array();
 	include("header.php");
 ?>
 	<div class="content startseite grid">

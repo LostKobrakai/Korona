@@ -3597,7 +3597,8 @@ body {
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, h2, h3, h4, h6 {
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: .5em; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit; }
@@ -4138,14 +4139,6 @@ h5.headline, h6.headline {
   padding-left: 0; }
   .b-downloads table td, .downloads table td {
     border: 0; }
-
-@media all and (min-width: 50em) {
-  .downloads .accordion .acc-panel > div {
-    position: relative; }
-  .downloads .accordion h3 {
-    position: absolute;
-    top: -2.5rem;
-    z-index: 1000; } }
 
 .d-form {
   height: 0;

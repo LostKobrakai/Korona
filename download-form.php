@@ -30,7 +30,7 @@
 										</div>
 									</fieldset><!--
 									 --><fieldset class="grid__item one-whole">
-										<div class="field-container grid">
+										<div class="field-container grid grid--wide">
 											<legend class="grid__item one-whole">Fachbereich <abbr title="Required">*</abbr></legend>
 								      <label for="checkbox1" class="grid__item one-half bp-med--one-third"><input id="checkbox1" name="checkbox[]" type="checkbox"> Architekt</label><!--
 								   --><label for="checkbox2" class="grid__item one-half bp-med--one-third"><input id="checkbox2" name="checkbox[]" type="checkbox"> Lichtplanung</label><!--
@@ -39,7 +39,7 @@
 								   --><label for="checkbox5" class="grid__item one-half bp-med--one-third"><input id="checkbox5" name="checkbox[]" type="checkbox"> Bauherr</label><!--
 								   --><label for="checkbox6" class="grid__item one-half bp-med--one-third"><input id="checkbox6" name="checkbox[]" type="checkbox"> Sonstiger</label>
 										</div>
-										<div class="field-container grid">
+										<div class="field-container grid grid--wide">
 											<input id="d-file" name="d-file" type="hidden" value="<?php echo $datei; ?>">
 											<div class="grid__item one-whole bp-small-2--one-half">
 												<input id="d-submit" name="d-submit" type="submit" value="Absenden" />
