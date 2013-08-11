@@ -38,20 +38,23 @@
 				<div class="grid">
 					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
-							<a href="#" class="inner">kor_#01</a>
+							<a href="produkte_kor_01.php" class="inner">kor_#01</a>
 						</h3>
-						<figure><img src="images/referenz_tashkent/kor01_uebersicht.jpg" alt="Image">
+						<figure>
+							<a href="produkte_kor_01.php" class="noarr"><img class="notrans" src="images/referenz_tashkent/kor01_uebersicht.jpg" alt="Image"></a>
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
-							<a href="#" class="inner">kor_#05</a>
+							<a href="produkte_kor_05.php" class="inner">kor_#05</a>
 						</h3>
-						<figure><img src="images/referenz_tashkent/kor05_uebersicht.jpg" alt="Image">
+						<figure>
+							<a href="produkte_kor_05.php" class="noarr"><img class="notrans" src="images/referenz_tashkent/kor05_uebersicht.jpg" alt="Image"></a>
 						</figure>
 					</div>
 				</div>
 			</div>
+			<div class="space-8"></div>
 			<div class="block b-innenbeleuchtung grid__item one-whole">
 				<h2 class="headline">Alle Innenbeleuchtungen</h2>
 				<div class="grid">

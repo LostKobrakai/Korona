@@ -77,4 +77,10 @@
     color: $yellow-korona;
 }
 
-
+@for $i from 1 through 10 {
+  .space-#{$i} {
+    width: 100%;
+    height: $space * $i;
+    line-height: $space * $i;
+  }
+}
