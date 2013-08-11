@@ -18,9 +18,12 @@
 			</div><!--
 			 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
 				<h2 class="headline">Beschreibung</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut delectus provident expedita ipsum in labore possimus ab obcaecati nobis saepe modi nemo impedit asperiores voluptatibus error perspiciatis dolorem commodi. Velit!</p>
-				<p>Vero expedita sequi voluptates repudiandae unde cum quae dignissimos officia natus sit minima soluta est laborum. Recusandae tenetur cupiditate sint quidem cumque dicta possimus ad ipsam eius numquam voluptatem itaque.</p>
-				<p>Odit facilis cum iste error inventore ipsum veniam accusantium quisquam laboriosam modi voluptate atque nisi adipisci ea quam quos accusamus facere fugit. Magni eum voluptatem ipsa autem modi debitis fugit?</p>
+				<p>Das Profilsystem kor_#01 ist ein lineares LED Leuchtsystem für beliebig lange Lichtlininen im Innen- und Außenbereich. Es basiert auf unserem patentiertem plug&light Kontaktsystem für werkzeuglose Endmontage, womit vielfältige und sehr individuelle Lichtlösungen ermöglicht werden.</p>
+				<p>Wir bieten Ihnen ein frei skalierbares und vielfältig bestückbares System, mit einem breitem Spektrum an LED Leistungklassen von 860lm/m bis 2450lm/m. Die HighPower LEDs sind dabei mit Einzeloptiken ausgestattet für eine sehr genaue Lichtführung. Die intelligente Leistungsdimmung direkt auf der Platine und verschiedenfarbige LEDs (Varioweiß oder RGB/RGBW) ermöglichen es eine große Palette an Lichtstimmungen zu erzeugen.</p>
+				<p>Dank **unserem tollen Stromkreislaufsystem** lassen sich mit diesem System LED-Linien mit bis zu 80m Länge realisieren mit nur einem mittigem Einspeisungspunkt. Mit bis zu 3 getrennten Stromkreisen oder Power-/Datenleitungen lassen sich intelligente Leuchtmodule für dynamischen Lichtinstallationen steuern. Die Profile lassen sich mit transluzenten Endplatten lichttechnisch unterbrechungsfrei aneinanderreihen.</p>
+				<p>Mit 7CR-Technologie sorgen wir für Leistungsoptimierung bei 24VDV-Betrieb. Sie erhalten somite eine energieeffiziente und wartungsfreie LED-Beleuchtung.</p>
+				<p>Alle unsere LED-Platinen werden mit Marken-LED-Komponenten in Deutschland gefertigt. Nach einem internen 24h Burn-In Test aller LED Module können sie vor Ort werkzeuglos in vormontierte Montageprofile eingesetzt werden.</p>
+				<p>Zu Ihren Projekten bekommen Sie von unserem Plaungsteam individuelle Beratung. Wir fertigen auch gerne Sonder-Montageprofile nach Kundenwunsch ab einer Länge von 200m.</p>
 			</div>
 			<div class="p-bereiche grid__item one-whole">
 				<h2 class="headline">Anwendungsgebiete</h2>
