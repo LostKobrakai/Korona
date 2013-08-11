@@ -34,9 +34,7 @@
 				<img src="images/referenz_tashkent/theater_02.png" alt="">
 			</div>
 			<div class="block b-referenzprodukte grid__item one-whole">
-				<h2 class="headline">
-					<a href="#" class="inner">Produkte des Projektes</a>
-				</h2>
+				<h2 class="headline">Produkte des Projektes</h2>
 				<div class="grid">
 					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third b-referenz">
 						<h3 class="headline">
@@ -55,14 +53,12 @@
 				</div>
 			</div>
 			<div class="block b-innenbeleuchtung grid__item one-whole">
-				<h2 class="headline">
-					<a href="#" class="inner">Alle Innenbeleuchtungen</a>
-				</h2>
+				<h2 class="headline">Alle Innenbeleuchtungen</h2>
 				<div class="grid">
 					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
-						<h3 class="headline"><a href="referenz_tashkent.php">Forum Tashkent</a></h3>
+						<h3 class="headline"><a href="#">Forum Tashkent</a></h3>
 						<figure>
-							<a class="noarr" href="referenz_tashkent.php"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">

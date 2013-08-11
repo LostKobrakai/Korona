@@ -38,6 +38,7 @@
 			<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 				<h2 class="headline"><a href="#">Korona</a></h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi asperiores cumque saepe et libero ducimus corporis modi deserunt similique quisquam ratione consequatur iste quibusdam. Sit ipsam nesciunt laborum ullam illum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi asperiores cumque saepe et libero ducimus corporis modi deserunt similique quisquam ratione consequatur iste quibusdam. Sit ipsam nesciunt laborum ullam illum!</p>
 			</div><!--
 			 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third push--bp-large--one-third">
 				<h2 class="headline"><a href="kontakt.php">Kontakt</a></h2>
