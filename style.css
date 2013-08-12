@@ -3679,8 +3679,7 @@ mark {
 .vcard {
   font-style: italic; }
   .vcard .org {
-    font-weight: bold;
-    font-size: 1.4375em; }
+    font-weight: bold; }
 
 ol, ul {
   margin: 0;
@@ -4176,7 +4175,7 @@ h5.headline, h6.headline {
   .acc-panel.active {
     height: auto; }
 
-.fn {
+.fn, .org {
   font-weight: 600; }
 
 .value {

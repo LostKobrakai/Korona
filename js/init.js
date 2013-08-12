@@ -81,6 +81,7 @@ $(document).ready(function(){
 				var h = this.parentObj.getPanelHeight();
 				this.formular.removeClass("active");
 				this.parentObj.panel.css("height", h);
+				this.item.scrollTo();
 			}else{
 				var h = (this.parentObj.getPanelHeight() + this.parentObj.getFormHeight());
 				this.formular.addClass("active");
@@ -143,6 +144,11 @@ $(document).ready(function(){
 			accordion.items[0].toggleActive();
 			accordion.items[0].download.toggleActive();
 			accordion.items[0].download.formular.scrollTo();
+			break;
+		case "#kor05data":
+			accordion.items[4].toggleActive();
+			accordion.items[4].download.toggleActive();
+			accordion.items[4].download.formular.scrollTo();
 			break;
 		default:
 			$("#"+window.location.hash.substring(2)).scrollTo();

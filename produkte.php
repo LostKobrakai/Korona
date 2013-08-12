@@ -7,7 +7,12 @@
 	<div class="content produkte grid">
 		<div class="block grid__item one-whole">
 			<h2 class="headline" id="system">Systemprodukte</h2>
-			<p class="b-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum labore ea exercitationem tempore! Voluptas animi nobis in temporibus rerum obcaecati provident consectetur hic similique ullam. Quas neque possimus ab deleniti!</p>
+			<div class="b-text bp-large--two-thirds">
+				<p>Um möglichst effizient auf die Wünsche und Vorstellungen unserer Kunden einzugehen und gleichzeitig neuartigen Anliegen flexibel entgegentreten zu können haben wir ein Sortiment an diversen System Lösungen entwickelt.
+				Hierbei wurden bestimmte Kern-Herausforderungen mit der Professionalität und dem wirtschaftlichen Anspruch eines Serien-Produktes gelöst, jedoch mit der Option in den entscheidenden Details individuell auf die einzelne Projektherausforderung zu reagieren.
+				Jedes System-Produkt wird auftragsbezogen gefertigt.</p>
+				<p>Ob die Bandbreite der Konfigurationsmöglichkeiten ausreicht, oder eine Sonderkonfiguration weiterentwickelt werden muss entscheidet die gegebene Problematik und der geplante finanzielle Umfang des Projekts.</p>
+			</div>
 			<div class="grid">
 				<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
 					<h3 class="headline"><a href="produkte_kor_01.php">kor_#01</a></h3>
@@ -20,7 +25,7 @@
 					<h3 class="headline"><a href="#">kor_#02</a></h3>
 					<figure>
 						<a class="noarr" href="#"><img class="notrans" src="images/produkte_uebersicht/kor02_produkt_uebersicht.jpg" alt=""></a>
-						<figcaption>platzsparendes, lineares LED Leuchtsystem</figcaption>
+						<figcaption>sehr kompaktes, lineares LED Leuchtsystem</figcaption>
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
@@ -34,21 +39,21 @@
 					<h3 class="headline"><a href="#">kor_#04</a></h3>
 					<figure>
 						<a class="noarr" href="#"><img class="notrans" src="images/produkte_uebersicht/kor04_produkt_uebersicht.jpg" alt=""></a>
-						<figcaption>lineares LED Leuchtsystem mit zweiseitiger Beleuchtung</figcaption>
+						<figcaption>freihängendes, lineares LED Leuchtsystem mit direkter und indirekter Beleuchtung</figcaption>
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
 					<h3 class="headline"><a href="produkte_kor_05.php">kor_#05</a></h3>
 					<figure>
 						<a class="noarr" href="produkte_kor_05.php"><img class="notrans" src="images/produkte_uebersicht/kor05_produkt_uebersicht.jpg" alt=""></a>
-						<figcaption>frei formbares, lineares LED Leuchtsystem mit zweiseitiger Beleuchtung</figcaption>
+						<figcaption>frei formbares und freihängendes, lineares LED Leuchtsystem mit direkter und indirekter Beleuchtung</figcaption>
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
 					<h3 class="headline"><a href="#">kor_#06</a></h3>
 					<figure>
 						<a class="noarr" href="#"><img class="notrans" src="images/produkte_uebersicht/kor06_produkt_uebersicht.jpg" alt=""></a>
-						<figcaption>lineares, robustes LED Leuchtsystem für Außenanwendungen</figcaption>
+						<figcaption>robustes LED Leuchtsystem für Außenanwendungen</figcaption>
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third systemprodukt">
@@ -62,14 +67,16 @@
 					<h3 class="headline"><a href="#">TailorLIGHT&reg;</a></h3>
 					<figure>
 						<a class="noarr" href="#"><img class="notrans" src="images/produkte_uebersicht/kortailorlight_produkt_uebersicht2.jpg" alt=""></a>
-						<figcaption>hoch energieeffizientes LED Leuchtsystem für Fassadenbeleuchtung</figcaption>
+						<figcaption>hoch energieeffizienter LED-Strahler</figcaption>
 					</figure>
 				</div>
 			</div>
 		</div><!--
 		 --><div class="block grid__item one-whole">
 			<h2 class="headline" id="sonder">Sonderanfertigungen</h2>
-			<p class="b-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum labore ea exercitationem tempore! Voluptas animi nobis in temporibus rerum obcaecati provident consectetur hic similique ullam. Quas neque possimus ab deleniti!</p>
+			<div class="b-text bp-large--two-thirds">
+				<p>Wenn auch modifizierte System-Produdukte zu keiner Lösung führen, oder die geplante Lichtlösung eine gänzlich individuelle Sonderleuchte erforderlich macht, können wir Sie in Planung und Ausführung optimal unterstützen. Unsere Sonderanfertigungen umfassen handgefertigte Einzelstücke, Kleinserien, projektbezogene Großserien, versteckte Lichttechnik sowie gestaltete Objektleuchten. Die Flexibilität unserer Produktion spiegelt sich auch in dem umfassenden Spektrum an verwendeten Materialien wieder.</p>
+			</div>
 			<div class="grid">
 				<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
 					<h3 class="headline"><a href="#">Poolleuchte Feno</a></h3>

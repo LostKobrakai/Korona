@@ -3,7 +3,7 @@
 	$teaser = "images/produkte_kor_01/kor01_produkt_head.jpg";
 	$breadcrumb = array("Home" => "index.php",
 											"Produkte" => "produkte.php",
-											"Systemprodukte" => "produkte.php#system",
+											"Systemprodukte" => "produkte.php#!system",
 											"kor_#01" => "produkte_kor_01.php");
 	include("header.php");
 ?>
@@ -23,7 +23,7 @@
 				<p>Dank **unserem tollen Stromkreislaufsystem** lassen sich mit diesem System LED-Linien mit bis zu 80m Länge realisieren mit nur einem mittigem Einspeisungspunkt. Mit bis zu 3 getrennten Stromkreisen oder Power-/Datenleitungen lassen sich intelligente Leuchtmodule für dynamischen Lichtinstallationen steuern. Die Profile lassen sich mit transluzenten Endplatten lichttechnisch unterbrechungsfrei aneinanderreihen.</p>
 				<p>Mit 7CR-Technologie sorgen wir für Leistungsoptimierung bei 24VDV-Betrieb. Sie erhalten somite eine energieeffiziente und wartungsfreie LED-Beleuchtung.</p>
 				<p>Alle unsere LED-Platinen werden mit Marken-LED-Komponenten in Deutschland gefertigt. Nach einem internen 24h Burn-In Test aller LED Module können sie vor Ort werkzeuglos in vormontierte Montageprofile eingesetzt werden.</p>
-				<p>Zu Ihren Projekten bekommen Sie von unserem Plaungsteam individuelle Beratung. Wir fertigen auch gerne Sonder-Montageprofile nach Kundenwunsch ab einer Länge von 200m.</p>
+				<p>Zu Ihren Projekten bekommen Sie von unserem Planungsteam individuelle Beratung. Wir fertigen auch gerne Sonder-Montageprofile nach Kundenwunsch ab einer Länge von 200m.</p>
 			</div>
 			<div class="p-bereiche grid__item one-whole">
 				<h2 class="headline">Anwendungsgebiete</h2>
@@ -35,8 +35,23 @@
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
-									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid">
+										<div class="grid__item one-whole bp-large--one-half">
+											<p>Alukern LED-Platine mit optimierten Leistungsparametern und hervorragenden lichttechnischen Eigenschaften,
+	in Form und Dimension fein abgestimmt auf die besonderen technischen Eigenschaften des LEDprofilsystems kor#01.
+	Ausführung in zwei Standard-LED-Rastern, HP40 mit 40mm und HP60 mit 60mm, für 24VDC.
+	- PWMonBOARD-Platine mit PWM-Leistungsregelung auf der Platine durch PWM-Signal. (Leistungsbegrenzung nur durch LED-Trafo)</p>
+										</div><!--
+										--><div class="grid__item one-whole bp-large--one-half">
+											<h4>HP40</h4>
+											<p>>120mm, dann Raster 40mm<br>
+											40mm<br>
+											Seoul, Z5-Typ (350mA)<br>
+											24VDC (±1V)<br>
+											MacAdams step-2<br>
+											Ri >83</p>
+										</div>
+									</div><!--
 							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
 							 		<img src="images/produkte_kor_01/vouten.png" alt="Image"></div>
 								</div>
@@ -47,8 +62,23 @@
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
-									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid">
+										<div class="grid__item one-whole bp-large--one-half">
+											<p>Alukern LED-Platine mit optimierten Leistungsparametern und hervorragenden lichttechnischen Eigenschaften,
+	in Form und Dimension fein abgestimmt auf die besonderen technischen Eigenschaften des LEDprofilsystems kor#01.
+	Ausführung in zwei Standard-LED-Rastern, HP40 mit 40mm und HP60 mit 60mm, für 24VDC.
+	- PWMonBOARD-Platine mit PWM-Leistungsregelung auf der Platine durch PWM-Signal. (Leistungsbegrenzung nur durch LED-Trafo)</p>
+										</div><!--
+										--><div class="grid__item one-whole bp-large--one-half">
+											<h4>HP40</h4>
+											<p>>120mm, dann Raster 40mm<br>
+											40mm<br>
+											Seoul, Z5-Typ (350mA)<br>
+											24VDC (±1V)<br>
+											MacAdams step-2<br>
+											Ri >83</p>
+										</div>
+									</div><!--
 							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
 							 		<img src="images/produkte_kor_01/fassade.png" alt="Image"></div>
 								</div>
@@ -59,8 +89,23 @@
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
-									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid">
+										<div class="grid__item one-whole bp-large--one-half">
+											<p>Alukern LED-Platine mit optimierten Leistungsparametern und hervorragenden lichttechnischen Eigenschaften,
+	in Form und Dimension fein abgestimmt auf die besonderen technischen Eigenschaften des LEDprofilsystems kor#01.
+	Ausführung in zwei Standard-LED-Rastern, HP40 mit 40mm und HP60 mit 60mm, für 24VDC.
+	- PWMonBOARD-Platine mit PWM-Leistungsregelung auf der Platine durch PWM-Signal. (Leistungsbegrenzung nur durch LED-Trafo)</p>
+										</div><!--
+										--><div class="grid__item one-whole bp-large--one-half">
+											<h4>HP40</h4>
+											<p>>120mm, dann Raster 40mm<br>
+											40mm<br>
+											Seoul, Z5-Typ (350mA)<br>
+											24VDC (±1V)<br>
+											MacAdams step-2<br>
+											Ri >83</p>
+										</div>
+									</div><!--
 							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
 							 		<img src="images/produkte_kor_01/raum.jpg" alt="Image"></div>
 								</div>
@@ -71,8 +116,23 @@
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
-									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid">
+										<div class="grid__item one-whole bp-large--one-half">
+											<p>Alukern LED-Platine mit optimierten Leistungsparametern und hervorragenden lichttechnischen Eigenschaften,
+	in Form und Dimension fein abgestimmt auf die besonderen technischen Eigenschaften des LEDprofilsystems kor#01.
+	Ausführung in zwei Standard-LED-Rastern, HP40 mit 40mm und HP60 mit 60mm, für 24VDC.
+	- PWMonBOARD-Platine mit PWM-Leistungsregelung auf der Platine durch PWM-Signal. (Leistungsbegrenzung nur durch LED-Trafo)</p>
+										</div><!--
+										--><div class="grid__item one-whole bp-large--one-half">
+											<h4>HP40</h4>
+											<p>>120mm, dann Raster 40mm<br>
+											40mm<br>
+											Seoul, Z5-Typ (350mA)<br>
+											24VDC (±1V)<br>
+											MacAdams step-2<br>
+											Ri >83</p>
+										</div>
+									</div><!--
 							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
 							 		<img src="images/produkte_kor_01/buero.png" alt="Image"></div>
 								</div>
@@ -83,8 +143,23 @@
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
-									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid">
+										<div class="grid__item one-whole bp-large--one-half">
+											<p>Alukern LED-Platine mit optimierten Leistungsparametern und hervorragenden lichttechnischen Eigenschaften,
+	in Form und Dimension fein abgestimmt auf die besonderen technischen Eigenschaften des LEDprofilsystems kor#01.
+	Ausführung in zwei Standard-LED-Rastern, HP40 mit 40mm und HP60 mit 60mm, für 24VDC.
+	- PWMonBOARD-Platine mit PWM-Leistungsregelung auf der Platine durch PWM-Signal. (Leistungsbegrenzung nur durch LED-Trafo)</p>
+										</div><!--
+										--><div class="grid__item one-whole bp-large--one-half">
+											<h4>HP40</h4>
+											<p>>120mm, dann Raster 40mm<br>
+											40mm<br>
+											Seoul, Z5-Typ (350mA)<br>
+											24VDC (±1V)<br>
+											MacAdams step-2<br>
+											Ri >83</p>
+										</div>
+									</div><!--
 							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
 							 		<img src="images/produkte_kor_01/aussen.png" alt="Image"></div>
 								</div>
@@ -95,8 +170,23 @@
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
-									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid"><p class="grid__item one-whole bp-large--one-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore quis iure mollitia est error delectus laborum numquam. Dolorum consequatur placeat id commodi perspiciatis excepturi fugit magnam tempora facilis quo.</p><!--
-									--><p class="grid__item one-whole bp-large--one-half">Rem blanditiis quidem molestiae vitae eveniet voluptatibus eaque vero sed molestias ad nemo veniam aperiam eos aliquid suscipit esse quibusdam maiores consequuntur delectus ab quaerat ratione repudiandae aspernatur voluptates eligendi.</p></div><!--
+									<div class="text grid__item one-whole bp-small-2--one-half bp-large--two-thirds grid">
+										<div class="grid__item one-whole bp-large--one-half">
+											<p>Alukern LED-Platine mit optimierten Leistungsparametern und hervorragenden lichttechnischen Eigenschaften,
+	in Form und Dimension fein abgestimmt auf die besonderen technischen Eigenschaften des LEDprofilsystems kor#01.
+	Ausführung in zwei Standard-LED-Rastern, HP40 mit 40mm und HP60 mit 60mm, für 24VDC.
+	- PWMonBOARD-Platine mit PWM-Leistungsregelung auf der Platine durch PWM-Signal. (Leistungsbegrenzung nur durch LED-Trafo)</p>
+										</div><!--
+										--><div class="grid__item one-whole bp-large--one-half">
+											<h4>HP40</h4>
+											<p>>120mm, dann Raster 40mm<br>
+											40mm<br>
+											Seoul, Z5-Typ (350mA)<br>
+											24VDC (±1V)<br>
+											MacAdams step-2<br>
+											Ri >83</p>
+										</div>
+									</div><!--
 							 --><div class="grid__item one-whole bp-small-2--one-half bp-large--one-third">
 							 		<img src="images/produkte_kor_01/farbe.jpg" alt="Image"></div>
 								</div>
@@ -108,7 +198,7 @@
 			<div class="block b-leistung grid__item one-whole bp-med--one-third">
 				<h2 class="headline">Leistung</h2>
 				<div class="b-text">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, eligendi obcaecati delectus ducimus. Excepturi, modi, amet, culpa veritatis magni quidem ducimus consequuntur.</p>
+					<p>Korona bietet ihnen neben seinen Produkten noch weitere Leistungen. Diese werden projektbezogen festgelegt.</p>
 					<p>
 						<a href="#">Individuelle Konfiguration</a><br>
 						<a href="#">Maßgeschneidete Produktion</a><br>
@@ -159,7 +249,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="space-2"></div>
+			<div class="space-3"></div>
 			<div class="block b-systemreferenzen grid__item one-whole">
 				<h2 class="headline">Referenzen zu diesem System</h2>
 				<div class="grid">
@@ -189,7 +279,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="space-8"></div>
+			<div class="space-4"></div>
 			<div class="block b-systemprodukte grid__item one-whole">
 				<h2 class="headline">Alle Systemprodukte</h2>
 				<div class="grid">

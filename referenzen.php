@@ -21,9 +21,9 @@
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
-					<h3 class="headline"><a href="#">Rathaus Schorndorf</a></h3>
+					<h3 class="headline"><a href="referenz_schorndorf.php">Rathaus Schorndorf</a></h3>
 					<figure>
-						<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/rathaus_schorndorf.jpg" alt=""></a>
+						<a class="noarr" href="referenz_schorndorf.php"><img src="images/referenzseite_uebersicht/innenbeleuchtung/rathaus_schorndorf.jpg" alt=""></a>
 					</figure>
 				</div><!--
 				 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">

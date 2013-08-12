@@ -1,9 +1,9 @@
 <?php
-	$h1 = "Forum Tashkent";
+	$h1 = "Rathaus Schorndorf";
 	$breadcrumb = array("Home" => "index.php",
 											"Referenzen" => "referenzen.php",
 											"Innenbeleuchtung" => "referenzen.php#!innen",
-											"Forum Tashkent" => "referenz-tashkent.php");
+											"Rathaus Schorndorf" => "referenz-tashkent.php");
 	include("header.php");
 ?>
 	<div class="content grid">
@@ -11,26 +11,20 @@
 			<div class="grid__item">
 				<div class="grid">
 					<div class="p-images grid__item one-whole bp-large--two-thirds">
-						<img src="images/referenz_tashkent/theater.png" alt="">
-						<img src="images/referenz_tashkent/forum.png" alt="">
+						<img src="images/referenz_schorndorf/schorndorf_01.png" alt="">
+						<img src="images/referenz_schorndorf/schorndorf_02.png" alt="">
 					</div><!--
 					 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
-						<h2 class="headline">PALACE OF INTERNATIONAL FORUMS »UZBEKISTAN«</h2>
-						<h3>Ein Forum für das ganze Land</h3>
-						<p>Der Palace of International Forums »Uzbekistan« steht im Zentrum Taschkents am Amir-Timur-Platz. Das wichtigste Repräsentationsgebäude des Landes ist als Plattform für Staatsakte, Kongresse, Konferenzen und kulturelle Höhepunkte angelegt.</p>
-						<h3>Die Lichtkuppel  Auditorium</h3>
-						<p>Horizontal in zwei Teile gegliedert, ist der gigantische Saal in seiner klassischen Auffächerung als Amphitheater ein Ort der Inspiration. Mit 48 Metern Höhe und 50 Metern Raumdurchmesser umschließt dieser ein imposantes Volumen. Mehrschichtig und hinterleuchtet sorgen die Kuppelbänder zum einen, da vollkommen absorbierend, für gute Raumakustik, zum anderen für erhabene Lichtstimmungen. Bei Bedarf verwandeln die im Versatz der Ringe verlaufenden Leuchtstoff- und LED-Bänder dank präziser Lichttechnik den Raum in einen schwerelosen Lichtkorpus.</p>
-
-						<h3>Das Treppenhaus  VIP-Foyer</h3>
-						<p>Über exklusiv ausgestattete Aufzüge und große Treppenhäuser gelangen die Gäste vom VIP-Foyer zu Bankettsaal und Konferenzraum. In den Zentren der Treppenaugen schweben schwerelos bis zu 5,20 Meter messende Lichtringe. Ineinander verschränkt und an den Außenkanten mit Swarovski-Steinen besetzt, entfalten sie auf jeder Etage ästhetich ansprechende Perspektiven. An den Wänden finden sie ihre Entsprechung &ndash; runde Spheren, die das Licht einfangen und um sich konzentrieren. Sichtbar ist nur das Licht der sinnlichen Objekte, nie dessen Quelle.</p>
+						<h2 class="headline">Beschreibung</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia temporibus velit magnam veritatis molestias repellendus deleniti. Reprehenderit ipsam aliquam ab mollitia sed maiores consequatur voluptatibus eaque perspiciatis assumenda dicta rem delectus repudiandae voluptatum aut vero aliquid nostrum nesciunt porro recusandae quas at suscipit distinctio necessitatibus impedit! Ex beatae architecto minima odit neque quae quos non error eum ab mollitia libero rerum provident facilis ratione cum numquam voluptates obcaecati. Tenetur molestiae possimus numquam ducimus hic suscipit vel id quae porro repellat ea modi. Optio eveniet tempora deleniti atque at vel neque laudantium maxime! Voluptate nam quidem facere eius voluptas inventore soluta.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dicta facere asperiores voluptatem ex autem ipsum perspiciatis hic doloribus architecto quos tempora laboriosam nostrum qui similique et quidem suscipit sint!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptas nostrum rem dolorum sint perferendis provident dolores esse inventore sit temporibus hic suscipit recusandae alias cumque eum quo deleniti nemo eveniet excepturi maiores a similique ipsam voluptatum earum tempore molestiae?</p>
 					</div>
 				</div>
 			</div>
 			<div class="p-images grid__item one-whole bp-large--two-thirds">
-				<img src="images/referenz_tashkent/ringleuchte.png" alt="">
-				<img src="images/referenz_tashkent/gang.png" alt="">
-				<img src="images/referenz_tashkent/gang_02.png" alt="">
-				<img src="images/referenz_tashkent/theater_02.png" alt="">
+				<img src="images/referenz_schorndorf/schorndorf_03.png" alt="">
+				<img src="images/referenz_schorndorf/schorndorf_04.png" alt="">
 			</div>
 			<div class="block b-referenzprodukte grid__item one-whole">
 				<h2 class="headline">Produkte des Projektes</h2>
@@ -58,9 +52,9 @@
 				<h2 class="headline">Alle Innenbeleuchtungen</h2>
 				<div class="grid">
 					<div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
-						<h3 class="headline"><a href="#">Forum Tashkent</a></h3>
+						<h3 class="headline"><a href="referenz_tashkent.php">Forum Tashkent</a></h3>
 						<figure>
-							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
+							<a class="noarr" href="referenz_tashkent.php"><img src="images/referenzseite_uebersicht/innenbeleuchtung/forum_tashkent.jpg" alt=""></a>
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
@@ -70,9 +64,9 @@
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">
-						<h3 class="headline"><a href="referenz_schorndorf.php">Rathaus Schorndorf</a></h3>
+						<h3 class="headline"><a href="#">Rathaus Schorndorf</a></h3>
 						<figure>
-							<a class="noarr" href="referenz_schorndorf.php"><img src="images/referenzseite_uebersicht/innenbeleuchtung/rathaus_schorndorf.jpg" alt=""></a>
+							<a class="noarr" href="#"><img src="images/referenzseite_uebersicht/innenbeleuchtung/rathaus_schorndorf.jpg" alt=""></a>
 						</figure>
 					</div><!--
 					 --><div class="block grid__item one-whole bp-small-2--one-half bp-large--one-third sonderanfertigung">

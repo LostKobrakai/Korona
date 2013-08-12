@@ -3,7 +3,7 @@
 	$teaser = "images/produkte_kor_05/kor05_produkt_head.jpg";
 	$breadcrumb = array("Home" => "index.php",
 											"Produkte" => "produkte.php",
-											"Systemprodukte" => "produkte.php#system",
+											"Systemprodukte" => "produkte.php#!system",
 											"kor_#05" => "produkte_kor_05.php");
 	include("header.php");
 ?>
@@ -18,9 +18,12 @@
 			</div><!--
 			 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
 				<h2 class="headline">Beschreibung</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut delectus provident expedita ipsum in labore possimus ab obcaecati nobis saepe modi nemo impedit asperiores voluptatibus error perspiciatis dolorem commodi. Velit!</p>
-				<p>Vero expedita sequi voluptates repudiandae unde cum quae dignissimos officia natus sit minima soluta est laborum. Recusandae tenetur cupiditate sint quidem cumque dicta possimus ad ipsam eius numquam voluptatem itaque.</p>
-				<p>Odit facilis cum iste error inventore ipsum veniam accusantium quisquam laboriosam modi voluptate atque nisi adipisci ea quam quos accusamus facere fugit. Magni eum voluptatem ipsa autem modi debitis fugit?</p>
+				<p>Form follows architecture.</p>
+				<p>Das Lineare abgependelte LED-Leuchtensystem ist in der Lage nahezu jeder Gebäudesform zu folgen und ringförmige Einheiten zu schließen.
+				Für Lichtlösungen in Ausmaßen von Raumbeleuchtung bis
+				dekorativer Linienführung. Durch den modularen Aufbau lassen sich innerhalb der Seitenwände aus Strangpressprofilen fast alle kurvenbildenden Geometrien erstellen.</p>
+				<p>Radien größer 1,25m können in uneingeschränkter Folge über fast beliebig viele Meter den Architekturformen folgen, auch um Ecken!
+				Eine frei wählbare Bestückung mit unseren Standard-LEDmodulen ist direkt und indirekt möglich. Termisch sind Leistungen bis 60W/m bei bis zu 5600lm/m möglich.</p>
 			</div>
 			<div class="p-bereiche grid__item one-whole">
 				<h2 class="headline">Anwendungsgebiete</h2>
@@ -28,7 +31,7 @@
 					<ul>
 						<li class="acc-item">
 							<h3 class="headline">
-								<a class="acc-handle">Vouten</a>
+								<a class="acc-handle">Museum</a>
 							</h3>
 							<div class="acc-panel grid">
 								<div class="acc-info">
@@ -81,7 +84,7 @@
 			<div class="block b-leistung grid__item one-whole bp-med--one-third">
 				<h2 class="headline">Leistung</h2>
 				<div class="b-text">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, eligendi obcaecati delectus ducimus. Excepturi, modi, amet, culpa veritatis magni quidem ducimus consequuntur.</p>
+					<p>Korona bietet ihnen neben seinen Produkten noch weitere Leistungen. Diese werden projektbezogen festgelegt.</p>
 					<p>
 						<a href="#">Individuelle Konfiguration</a><br>
 						<a href="#">Maßgeschneidete Produktion</a><br>
@@ -95,19 +98,22 @@
 					<table>
 						<tr>
 							<td>Infobrochüre:</td>
-							<td><a href="#">PDF</a></td>
+							<td><a class="noarr" href="#">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Sicherheitshinweise:</td>
-							<td><a href="#">PDF</a></td>
+							<td><a class="noarr" href="#">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Montageanleitung:</td>
-							<td><a href="#">PDF</a></td>
+							<td><a class="noarr" href="#">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Lichtberechnung:</td>
-							<td><a href="#">EXL</a></td>
+							<td><a class="d-refer" href="downloads.php#kor05data">EXL</a></td>
+						</tr>
+						<tr>
+							<td class="is-vishidden" colspan="2"><mark class="download">Sie werden zum Download weitergeleitet<span>.</span></mark></td>
 						</tr>
 					</table>
 				</div>
@@ -129,7 +135,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="space-2"></div>
+			<div class="space-3"></div>
 			<div class="block b-systemreferenzen grid__item one-whole">
 				<h2 class="headline">Referenzen zu diesem System</h2>
 				<div class="grid">
@@ -159,7 +165,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="space-8"></div>
+			<div class="space-4"></div>
 			<div class="block b-systemprodukte grid__item one-whole">
 				<h2 class="headline">Alle Systemprodukte</h2>
 				<div class="grid">
