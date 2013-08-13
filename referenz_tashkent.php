@@ -15,7 +15,7 @@
 						<img src="images/referenz_tashkent/forum.png" alt="">
 					</div><!--
 					 --><div class="p-beschreibung grid__item one-whole bp-large--one-third">
-						<h2 class="headline">PALACE OF INTERNATIONAL FORUMS »UZBEKISTAN«</h2>
+						<h2 class="headline">Beschreibung</h2>
 						<h3>Ein Forum für das ganze Land</h3>
 						<p>Der Palace of International Forums »Uzbekistan« steht im Zentrum Taschkents am Amir-Timur-Platz. Das wichtigste Repräsentationsgebäude des Landes ist als Plattform für Staatsakte, Kongresse, Konferenzen und kulturelle Höhepunkte angelegt.</p>
 						<h3>Die Lichtkuppel  Auditorium</h3>
