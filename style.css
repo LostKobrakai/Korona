@@ -4246,7 +4246,9 @@ h5.headline, h6.headline {
   position: absolute;
   left: 1.875rem;
   bottom: 1.25rem;
-  color: white; }
+  color: white;
+  margin: 0;
+  padding: 0; }
 
 .teaser img {
   position: absolute;

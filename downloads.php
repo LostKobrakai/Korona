@@ -24,7 +24,6 @@
 										<tr><td>Sicherheitshinweise:</td><td><a class="noarr" href="#">PDF</a></td></tr>
 										<tr><td>Montageanleitung:</td><td><a class="noarr" href="#">PDF</a></td></tr>
 										<tr><td>Lichtberechnung:</td><td><a class="d-handle d-handle--open">EXL</a></td></tr>
-										<tr><td>Cinema 4D:</td><td><a class="d-handle d-handle--open">EXL</a></td></tr>
 									</table>
 								</div>
 							</div><!--
@@ -160,7 +159,6 @@
 										<tr><td>Sicherheitshinweise:</td><td><a class="noarr" href="#">PDF</a></td></tr>
 										<tr><td>Montageanleitung:</td><td><a class="noarr" href="#">PDF</a></td></tr>
 										<tr><td>Lichtberechnung:</td><td><a class="d-handle d-handle--open">EXL</a></td></tr>
-										<tr><td>Cinema 4D:</td><td><a class="d-handle d-handle--open">EXL</a></td></tr>
 									</table>
 								</div>
 							</div><!--

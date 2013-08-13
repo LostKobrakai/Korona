@@ -3,18 +3,20 @@
 function email($email, $name, $file, $password){
 	$name = explode(" ", $name);
 
-
-
 	//EMail
 	$msg = "Sehr geehrter Herr ".$name[count($name)-1]."\n";
 	$msg .= "\n";
-	$msg .= "Vielen Dank für ihr Verständnis. Folgend die geschützen Downloadlinks zum Produkt $file.\n";
+	$msg .= "Vielen Dank für Ihr Verständnis. Folgend Ihr gewünschter Downloadlink:\n";
 	$msg .= "\n";
 	$msg .= "EXL: http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password&$file=exl\n";
-	$msg .= "ECF: http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password&$file=ecf\n";
-	$msg .= "EIT: http://".$_SERVER['SERVER_NAME']."/download.php?pass=$password&$file=eit\n";
 	$msg .= "\n";
-	$msg .= "Falls sie zu einem späteren Zeitpunkt noch geschützte Dateien zu einem anderen Produkt herunterladen möchen, dann können sie folgendes Passwort benutzen.\n";
+	$msg .= "Anbei auch die anderen Downloads zu dem Produkt $file.\n";
+	$msg .= "\n";
+	$msg .= "Infobrochure: http://".$_SERVER['SERVER_NAME']."/brochure_$file.pdf\n";
+	$msg .= "Sicherheitshinweise: http://".$_SERVER['SERVER_NAME']."/sicherheit_$file.pdf\n";
+	$msg .= "Montageanleitung: http://".$_SERVER['SERVER_NAME']."/montage_$file.pdf\n";
+	$msg .= "\n";
+	$msg .= "Falls Sie zu einem späteren Zeitpunkt noch geschützte Dateien zu einem anderen Produkt herunterladen möchen, dann können Sie folgendes Passwort benutzen.\n";
 	$msg .= "\n";
 	$msg .= "Passwort: $password\n";
 	$msg .= "\n";
