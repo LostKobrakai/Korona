@@ -26,16 +26,16 @@
 							<h3 class="headline">Schnelleinstieg</h3>
 						</div>
 						<div class="block grid__item one-whole bp-med--one-half">
-							<h4 class="headline"><a href="produkte_kor_01.php">Produkte</a></h4>
+							<h4 class="headline"><a href="produkte.php">Produkte</a></h4>
 						</div><!--
 						 --><div class="block grid__item one-whole bp-med--one-half">
-							<h4 class="headline"><a href="#">Referenzen</a></h4>
+							<h4 class="headline"><a href="referenzen.php">Referenzen</a></h4>
 						</div><!--
 						 --><div class="block grid__item one-whole bp-med--one-half">
-							<h4 class="headline"><a href="#">Unternehmen</a></h4>
+							<h4 class="headline"><a href="unternehmen.php">Unternehmen</a></h4>
 						</div><!--
 						 --><div class="block grid__item one-whole bp-med--one-half">
-							<h4 class="headline"><a href="#">Kontakt</a></h4>
+							<h4 class="headline"><a href="kontakt.php">Kontakt</a></h4>
 						</div>
 					</div>
 				</div>
